@@ -37,6 +37,7 @@ links:
   - title: Robots
     url: /robots/
   - title: Repos
+    icon: github
     url: https://github.com/o-botics
     external: true
 
