@@ -11,7 +11,7 @@ Hello World from O'Botics. The site is up. Not much on it right now but hopefull
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    {% if site.testing == false %}
+    {% if site.url == "http://o-botics.org" %}
       var disqus_shortname = 'o-botics'; // required: replace example with your forum shortname
     {% endif %}
 

@@ -6,24 +6,32 @@ tags: [robotics, open]
 modified: 2014-02-16
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes).
+O'Botics, named for **o**pen ro**botics**, is a site created for anybody interested in robotics and wish to collaborate on robot designs. The goal is to development open robots that are cheap, reliable, accessible, and awesome!
 
-## So Simple Theme is all about:
+O'Botics was creatd by [Rowland O'Flaherty](rowlandoflaherty.com) in early 2014 as result of [Coursera MOOC "Control of Mobile Robots"](https://www.coursera.org/course/conrob). The course, taught by Georgia Tech professor [Magnus Egerstedt](http://users.ece.gatech.edu/~magnus/),  teaches students at a college level how to control mobile robots (i.e. get robots to move in a desirable way). To connect the theory to practice the course also included a software simulation and hardware component. This allowed the students to develope theory learned in lectures with the Matlab simulator [Sim.I.Am](http://jdelacroix.github.io/simiam/) (written by [JP de la Croix](http://jpdelacroix.com/)) and then apply that theory to a real robot known as the [QuickBot]({{ site.url }}/robots/quickbot/) (designed by [Rowland O'Flaherty](rowlandoflaherty.com)).
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Disqus comments if you choose to enable.
-* Simple and clear permalink structure[^1].
-* Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
-* Vanilla [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) to make your code examples look snazzy.
-* Simple search that overlays results based on post title.
-* [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
-* [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines
+The 7-week course was very successful. More than 31,000 students registered with average of 10,000 actively participating in some part of the course each week. But what was really exciting were the discussion that took place on the course website forum. This forum not only had people from all over the globe asking and answering each others questions, but also was an incubator for new ideas on how to improve the software, hardware, and everything in-between. Not wanting this creative environment to end with the end of the course is reason this site was born.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+The site is completely open. All material is maintained through a GitHub organization called "[o-botics](https://github.com/o-botics)". Anybody can access, use, and contribute to the material in this organization. Even this very site is hosted on GitHub with a Git [repo](https://github.com/o-botics/o-botics.github.io) using [Jekyll](http://jekyllrb.com/) to generate static webpages.
 
-[^1]: Example: *domain.com/category-name/post-title*
+Discussion can take place in the comments area of each page using the blog hosting service [Disqus](http://disqus.com/) or in the issues and wiki area of each repository in the GitHub organization.
+
+This is an experiment, it's exciting to see where it will go.
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    // var disqus_shortname = 'testing-o-botics'; // required: replace example with your forum shortname
+    {% if site.url == "http://o-botics.org" %}
+      var disqus_shortname = 'o-botics'; // required: replace example with your forum shortname
+    {% endif %}
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>

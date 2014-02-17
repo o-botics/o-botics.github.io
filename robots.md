@@ -20,7 +20,7 @@ tags: [robots]
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     // var disqus_shortname = 'testing-o-botics'; // required: replace example with your forum shortname
-    {% if site.testing == false %}
+    {% if site.url == "http://o-botics.org" %}
       var disqus_shortname = 'o-botics'; // required: replace example with your forum shortname
     {% endif %}
 

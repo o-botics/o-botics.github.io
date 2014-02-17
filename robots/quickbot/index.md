@@ -14,14 +14,14 @@ tags: [QuickBot]
 {:toc}
 
 ## Overview
-The QuickBot was oringally designed by <a href="https://rowlandoflaherty.com" target="_blank">Rowland O'Flaherty</a> for the <a href="https://www.coursera.org/course/conrob" target="_blank">2014 Coursera MOOC "Control of Mobile Robots"</a>. The idea was a have a fairly cheap, easy to build, differential drive robot that the students could use to apply the theory that they learn from the course to a real world. The name QuickBot was given because (in theory) it is quick to build and setup.
+The QuickBot was oringally designed by <a href="https://rowlandoflaherty.com" target="_blank">Rowland O'Flaherty</a> for the <a href="https://www.coursera.org/course/conrob" target="_blank">2014 Coursera MOOC "Control of Mobile Robots"</a>. The idea was to have a fairly cheap, easy to build, differential drive robot that the students of the course could use to apply the theory that they learn from the course to a real world robot. The name QuickBot was given because (in theory) it is quick to build and setup.
 
-The QuickBot has a wheel encoder on each wheel to measure wheel rotations and five infrared (IR) distance sensors (proximity sensor) to measure the distance of obstacles to the robot. The processing on the QuickBot is preformed by a [BeagleBone Black (BBB)](http://beagleboard.org/products/beaglebone%20black) microcomputer. Wifi on board is used to connect the QuickBot to the world, which allows for easy testing of programs in simulation and running of programs on the real robot. The QuickBot is powered by 8 AA batteries.
+The QuickBot has a wheel encoder on each wheel to measure wheel rotations and five infrared (IR) distance sensors (proximity sensor) to measure the distance of obstacles to the robot. The processing on the QuickBot is preformed by a [BeagleBone Black (BBB)](http://beagleboard.org/products/beaglebone%20black) microcomputer. Wifi on board is used to connect the QuickBot to the world, which allows for onboard development as well as easy interfacing with simulation and visulization tools. The QuickBot is powered by 8 AA batteries.
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    {% if site.testing == false %}
+    {% if site.url == "http://o-botics.org" %}
       var disqus_shortname = 'o-botics'; // required: replace example with your forum shortname
     {% endif %}
 

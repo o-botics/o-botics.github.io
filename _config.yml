@@ -2,14 +2,8 @@ title:            O'Botics
 tagline:          Open roBotics
 description:      A place where roboticist can collaborate on robot designs, code, electronics, and hardware.
 
-# Uncommment these lines when pushing to live site and comment when testing locally
-testing: false
-url:     http://o-botics.org
-
-# # Uncomment these lines when testing locally and comment when pushing to live site
-# testing: true
-# url:
-
+# Uncommment this line when pushing to live site and comment when testing locally
+url: http://o-botics.org
 
 # Owner/author information
 owner:
