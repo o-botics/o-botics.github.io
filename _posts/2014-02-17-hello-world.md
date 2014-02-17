@@ -1,25 +1,16 @@
 ---
-layout: page
-permalink: /robots/
-title: Robots
-description: "Links to all the robots"
-modified: 2014-02-10
-tags: [robots]
+layout: post
+title: Hello World
+description: "Just saying hi from O'Botics!"
+modified: 2014-02-17
+category: updates
 ---
 
-* Table of Contents
-{:toc}
-
-## [QuickBot: Control of Mobile Robots MOOC Robot]({{ site.url }}/robots/quickbot/)
-
-<p align="center">
-  <a href="{{ site.url }}/robots/quickbot/"><img src="{{ site.url }}/images/quickbot-red-icon.jpg" alt="QuickBot"></a>
-</p>
+Hello World from O'Botics. The site is up. Not much on it right now but hopefully that will change quickly.
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    // var disqus_shortname = 'testing-o-botics'; // required: replace example with your forum shortname
     {% if site.testing == false %}
       var disqus_shortname = 'o-botics'; // required: replace example with your forum shortname
     {% endif %}

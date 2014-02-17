@@ -1,8 +1,15 @@
 title:            O'Botics
 tagline:          Open roBotics
 description:      A place where roboticist can collaborate on robot designs, code, electronics, and hardware.
-# Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://o-botics.org
+
+# Uncommment these lines when pushing to live site and comment when testing locally
+testing: false
+url:     http://o-botics.org
+
+# # Uncomment these lines when testing locally and comment when pushing to live site
+# testing: true
+# url:
+
 
 # Owner/author information
 owner:
@@ -34,8 +41,8 @@ links:
     url: /
   - title: About
     url: /about/
-  - title: Posts
-    url: /posts/
+  - title: News
+    url: /news/
   - title: Robots
     url: /robots/
   - title: Repos
