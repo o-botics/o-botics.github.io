@@ -1,14 +1,18 @@
 title:            O'Botics
 tagline:          Open roBotics
+logo:             site-logo.png
 description:      A place where roboticist can collaborate on robot designs, code, electronics, and hardware.
 
 # Uncommment this line when pushing to live site and comment when testing locally
-url: http://o-botics.org
+# url: http://o-botics.org
+
+pages: ./_pages
+robots: ./robots
 
 # Owner/author information
 owner:
   name:           O-Botics
-  avatar:         quickbot-red-icon.jpg
+  avatar:         roboticists/rowland_oflaherty.jpg
   bio:            "Open roBotics Organization"
   email:          rowoflo@o-botics.org
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
@@ -39,6 +43,8 @@ links:
     url: /news/
   - title: Robots
     url: /robots/
+  - title: Roboticists
+    url: /roboticists/
   - title: Repos
     icon: github
     url: https://github.com/o-botics

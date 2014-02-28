@@ -1,0 +1,21 @@
+---
+layout: page
+title: The Robots
+---
+<div class="span16">
+  <h1>QuickBot</h1>
+
+  <ul id="robots">
+    {% for robot in page.robots %}
+      <li class="robot span5">
+        <a href="/robots/{{ robot[0] }}">
+          {% if robot[1].image %}
+            <img src="{{ robot[1].image.url }}" title="{ robot[1].image.title }}" alt="{ robot[1].image.alt }}" width="150" height="150" />
+          {% endif %}
+
+          <p>{{ robot[1].short }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

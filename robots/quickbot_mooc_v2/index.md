@@ -1,9 +1,10 @@
 ---
-layout: page
-title: QuickBot
-description: "QuickBot"
-modified: 2014-02-16
+layout: robot
+title: MOOC QuickBot v2
+description: "The Oringinal QuickBot"
+modified: 2014-02-28
 tags: [QuickBot]
+published: true
 ---
 
 <p align="center">
