@@ -1,25 +1,17 @@
 ---
-layout: page
-permalink: /robots/
-title: Robots
-description: "Links to all the robots"
-modified: 2014-02-10
-tags: [robots]
+layout: robot
+title: QuickBot MOOC v1 -- Parts List
+modified: 2014-03-04
+prev_name: QuickBot MOOC v1
+prev_link: index.html
+publish: true
 ---
 
-* Table of Contents
-{:toc}
-
-## [QuickBot: Control of Mobile Robots MOOC Robot]({{ site.url }}/robots/quickbot/)
-
-<p align="center">
-  <a href="{{ site.url }}/robots/quickbot/"><img src="{{ site.url }}/images/quickbot-red-icon.jpg" alt="QuickBot"></a>
-</p>
+Coming soon...
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    // var disqus_shortname = 'testing-o-botics'; // required: replace example with your forum shortname
     {% if site.url == "http://o-botics.org" %}
       var disqus_shortname = 'o-botics'; // required: replace example with your forum shortname
     {% endif %}
@@ -33,3 +25,5 @@ tags: [robots]
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+

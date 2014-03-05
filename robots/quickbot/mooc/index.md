@@ -1,7 +1,7 @@
 ---
 layout: page
-name: QuickBot
-subclass: Models
+name: MOOC
+subclass: Versions
 priority: 1
 publish: true
 ---

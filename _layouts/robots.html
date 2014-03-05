@@ -1,0 +1,97 @@
+---
+layout: page
+title: The Robots
+---
+<!--
+<script>
+function robot(name,child)
+{
+  this.robotName=name;
+  this.child=child;
+}
+
+function robotListGenerator(list)
+{
+  var listStr = "<ul>"
+  for (var i=0; i<list.length; i++) {
+    listStr = listStr + "<li>" + list[i].robotName + "</li>"
+    if (list[i].child != 0) {
+      listStr = listStr + robotListGenerator(list[i].child)
+    }
+  }
+  listStr = listStr + "</ul>"
+  return listStr
+}
+</script>
+
+
+<div class="span16">
+<p id="robotList"></p>
+</div>
+
+<script>
+var childList = new Array();
+childList[0] = new robot("v1", 0);
+childList[1] = new robot("v2", 0);
+
+var robotList = new Array();
+robotList[0] = new robot("QuickBot", childList)
+// robotList[0] = new robot("QuickBot",0)
+robotList[1] = new robot("Scoot Scoot",0)
+document.getElementById("robotList").innerHTML=robotListGenerator(robotList);
+</script>
+ -->
+
+<div class="span16">
+  <ul class="robot_list">
+    {% for robot in page.robots %}
+      <li class="robot span5">
+        {{ robot.name }}
+        {% if robot.subclass %}
+          <p class="model_header">{{ robot.subclass }}:</p>
+          <ul class="model_list">
+          {% for model in robot.child %}
+            <li class="model_item">
+              {{ model.name }}
+              {% if model.subclass %}
+                <p class="version_header">{{ model.subclass }}:</p>
+                {% for version in model.child %}
+                  <a href="{{ version.url }}">
+                  {% if version.image %}
+                    <img src="{{ version.url }}/{{ version.image }}" alt={{ version.name }} height="150" width="150" style="border:5px solid black">
+                  {% else %}
+                    <img src="/images/no_robot.png" alt={{ version.name }} height="150" width="150" style="border:5px solid black">
+                  {% endif %}
+                  </a>
+                  &nbsp&nbsp
+                {% endfor %}
+              {% else %}
+              <br>
+              <a href="{{ model.url }}">
+              {% if model.image %}
+                <img src="{{ model.url }}/{{ model.image }}" alt={{ model.name }} height="150" width="150" style="border:5px solid black">
+              {% else %}
+                <img src="{{ site.url }}/images/no_model.png" alt={{ model.name }} height="150" width="150" style="border:5px solid black">
+              {% endif %}
+              </a>
+              &nbsp&nbsp
+              {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <br>
+          <a href="{{ robot.url }}">
+          {% if robot.image %}
+            <img src="{{ robot.url }}/{{ robot.image }}" alt={{ robot.name }} height="150" width="150" style="border:5px solid black">
+          {% else %}
+            <img src="{{ site.url }}/images/no_robot.png" alt={{ robot.name }} height="150" width="150" style="border:5px solid black">
+          {% endif %}
+          </a>
+          &nbsp&nbsp
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+

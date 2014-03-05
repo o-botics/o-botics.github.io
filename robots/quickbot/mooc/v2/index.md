@@ -1,12 +1,21 @@
 ---
-layout: post
-title: Hello World
-description: "Just saying hi from O'Botics!"
-modified: 2014-02-17
-category: updates
+layout: page
+name: v2
+priority: 2
+title: QuickBot MOOC v2
+modified: 2014-02-28
+publish: true
 ---
 
-Hello World from O'Botics. The site is up. Not much on it right now but hopefully that will change quickly.
+<p align="center">
+  <img src="{{ page.url }}/images/quickbot-red-icon.jpg" alt="QuickBot">
+</p>
+
+* Table of Contents
+{:toc}
+
+## Overview
+Second version of the MOOC QuickBot.
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -24,3 +33,5 @@ Hello World from O'Botics. The site is up. Not much on it right now but hopefull
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
