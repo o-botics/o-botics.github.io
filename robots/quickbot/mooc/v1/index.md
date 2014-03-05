@@ -1,20 +1,17 @@
 ---
 layout: robot
-title: MOOC QuickBot v2
-description: "The Oringinal QuickBot"
-modified: 2014-02-28
-tags: [QuickBot]
-published: true
+name: v1
+priority: 1
+title: QuickBot MOOC v1
+modified: 2014-03-04
+image: quickbot-mooc-v1.jpg
+prev_name: Robots
+prev_link: /robots/
+next_name: Parts Lists
+next_link: parts_list.html
+publish: true
 ---
 
-<p align="center">
-  <img src="{{ site.url }}/images/quickbot-red-icon.jpg" alt="QuickBot">
-</p>
-
-* Table of Contents
-{:toc}
-
-## Overview
 The QuickBot was oringally designed by <a href="https://rowlandoflaherty.com" target="_blank">Rowland O'Flaherty</a> for the <a href="https://www.coursera.org/course/conrob" target="_blank">2014 Coursera MOOC "Control of Mobile Robots"</a>. The idea was to have a fairly cheap, easy to build, differential drive robot that the students of the course could use to apply the theory that they learn from the course to a real world robot. The name QuickBot was given because (in theory) it is quick to build and setup.
 
 The QuickBot has a wheel encoder on each wheel to measure wheel rotations and five infrared (IR) distance sensors (proximity sensor) to measure the distance of obstacles to the robot. The processing on the QuickBot is preformed by a [BeagleBone Black (BBB)](http://beagleboard.org/products/beaglebone%20black) microcomputer. Wifi on board is used to connect the QuickBot to the world, which allows for onboard development as well as easy interfacing with simulation and visulization tools. The QuickBot is powered by 8 AA batteries.
