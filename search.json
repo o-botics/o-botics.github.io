@@ -1,13 +1,19 @@
----
----
 [
-	{% for post in site.posts %}
+	
 		{
-		  "title"      : "{{ post.title | escape }}",
-		  "category"   : "{{ post.category }}",
-		  "url"        : "{{ site.url }}{{ post.url }}",
-		  "date"       : "{{ post.date }}",
-		  "shortdate"  : "{{ post.date | date: '%B %d, %Y' }}"
-		} {% if forloop.last %}{% else %},{% endif %}
-	{% endfor %}
+		  "title"      : "Trouble Updating The Site",
+		  "category"   : "news",
+		  "url"        : "/news/trouble-updating-site/",
+		  "date"       : "2014-03-05 00:00:00 -0500",
+		  "shortdate"  : "March 05, 2014"
+		} ,
+	
+		{
+		  "title"      : "Hello World",
+		  "category"   : "news",
+		  "url"        : "/news/hello-world/",
+		  "date"       : "2014-02-27 00:00:00 -0500",
+		  "shortdate"  : "February 27, 2014"
+		} 
+	
 ]

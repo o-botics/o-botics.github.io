@@ -5,25 +5,25 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Latest News &#8211; O'Botics</title>
-<meta name="description" content="A place where roboticist can collaborate on robot designs, code, electronics, and hardware.">
-<meta name="keywords" content="robot">
+<title>The Robots &#8211; O'Botics</title>
+<meta name="description" content="A place where roboticists can collaborate on robot designs, code, electronics, and hardware.">
+
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Latest News">
-<meta property="og:description" content="A place where roboticist can collaborate on robot designs, code, electronics, and hardware.">
-<meta property="og:url" content="/index.html">
+<meta property="og:title" content="The Robots">
+<meta property="og:description" content="A place where roboticists can collaborate on robot designs, code, electronics, and hardware.">
+<meta property="og:url" content="/robots/index.html">
 <meta property="og:site_name" content="O'Botics">
 
 
 
 
 
-<link rel="canonical" href="/">
+<link rel="canonical" href="/robots/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="O'Botics Feed">
 
 
@@ -128,16 +128,100 @@
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title">Latest News</h1>
+        <h1 class="entry-title">The Robots</h1>
       </header>
       <div class="entry-content">
-        <ul class="post-list">
+        <!--
+<script>
+function robot(name,child)
+{
+  this.robotName=name;
+  this.child=child;
+}
 
-  <li><article><a href="/news/trouble-updating-site/">Trouble Updating The Site <span class="entry-date"><time datetime="2014-03-05T00:00:00-05:00">March 05, 2014</time></span></a></article></li>
+function robotListGenerator(list)
+{
+  var listStr = "<ul>"
+  for (var i=0; i<list.length; i++) {
+    listStr = listStr + "<li>" + list[i].robotName + "</li>"
+    if (list[i].child != 0) {
+      listStr = listStr + robotListGenerator(list[i].child)
+    }
+  }
+  listStr = listStr + "</ul>"
+  return listStr
+}
+</script>
 
-  <li><article><a href="/news/hello-world/">Hello World <span class="entry-date"><time datetime="2014-02-27T00:00:00-05:00">February 27, 2014</time></span></a></article></li>
 
-</ul>
+<div class="span16">
+<p id="robotList"></p>
+</div>
+
+<script>
+var childList = new Array();
+childList[0] = new robot("v1", 0);
+childList[1] = new robot("v2", 0);
+
+var robotList = new Array();
+robotList[0] = new robot("QuickBot", childList)
+// robotList[0] = new robot("QuickBot",0)
+robotList[1] = new robot("Scoot Scoot",0)
+document.getElementById("robotList").innerHTML=robotListGenerator(robotList);
+</script>
+ -->
+
+<div class="span16">
+  <ul class="robot_list">
+    
+      <li class="robot span5">
+        QuickBot
+        
+          <p class="model_header">Models:</p>
+          <ul class="model_list">
+          
+            <li class="model_item">
+              MOOC
+              
+                <p class="version_header">Versions:</p>
+                
+                  <a href="./quickbot/mooc/v1">
+                  
+                    <img src="./quickbot/mooc/v1/quickbot-mooc-v1.jpg" alt=v1 height="150" width="150" style="border:5px solid black">
+                  
+                  </a>
+                  &nbsp&nbsp
+                
+                  <a href="./quickbot/mooc/v2">
+                  
+                    <img src="/images/no_robot.png" alt=v2 height="150" width="150" style="border:5px solid black">
+                  
+                  </a>
+                  &nbsp&nbsp
+                
+              
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="robot span5">
+        Scoot Scoot
+        
+          <br>
+          <a href="./scoot_scoot">
+          
+            <img src="/images/no_robot.png" alt=Scoot Scoot height="150" width="150" style="border:5px solid black">
+          
+          </a>
+          &nbsp&nbsp
+        
+      </li>
+    
+  </ul>
+</div>
+
 
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
