@@ -3,7 +3,7 @@
 		{
 		  "title"      : "Trouble Updating The Site",
 		  "category"   : "news",
-		  "url"        : "/news/trouble-updating-site/",
+		  "url"        : "http://o-botics.org/news/trouble-updating-site/",
 		  "date"       : "2014-03-05 00:00:00 -0500",
 		  "shortdate"  : "March 05, 2014"
 		} ,
@@ -11,7 +11,7 @@
 		{
 		  "title"      : "Hello World",
 		  "category"   : "news",
-		  "url"        : "/news/hello-world/",
+		  "url"        : "http://o-botics.org/news/hello-world/",
 		  "date"       : "2014-02-27 00:00:00 -0500",
 		  "shortdate"  : "February 27, 2014"
 		} 

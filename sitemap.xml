@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc></loc>
+        <loc>http://o-botics.org</loc>
     </url>
     
     
     <url>
-        <loc>/news/trouble-updating-site/</loc>
+        <loc>http://o-botics.org/news/trouble-updating-site/</loc>
     </url>
     
     <url>
-        <loc>/news/hello-world/</loc>
+        <loc>http://o-botics.org/news/hello-world/</loc>
     </url>
     
 </urlset>
