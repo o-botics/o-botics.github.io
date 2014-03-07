@@ -5,25 +5,25 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>O'Botics</title>
-<meta name="description" content="A place where roboticists can collaborate on robot designs, code, electronics, and hardware.">
-
+<title>O'Botics Up and Running &#8211; O'Botics</title>
+<meta name="description" content="After working out some issues, finally got the website up... still a lot of work to do.">
+<meta name="keywords" content="">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="O'Botics">
-<meta property="og:description" content="A place where roboticists can collaborate on robot designs, code, electronics, and hardware.">
-<meta property="og:url" content="/robots/quickbot/mooc/index.html">
+<meta property="og:title" content="O'Botics Up and Running">
+<meta property="og:description" content="After working out some issues, finally got the website up... still a lot of work to do.">
+<meta property="og:url" content="/news/site-up-and-running/">
 <meta property="og:site_name" content="O'Botics">
 
 
 
 
 
-<link rel="canonical" href="/robots/quickbot/mooc/">
+<link rel="canonical" href="/news/site-up-and-running/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="O'Botics Feed">
 
 
@@ -58,7 +58,7 @@
 
 </head>
 
-<body id="page">
+<body id="post">
 
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
@@ -124,17 +124,58 @@
 
 
 <div id="main" role="main">
-  <article class="entry">
+  <article class="hentry">
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title"></h1>
-      </header>
-      <div class="entry-content">
+        <span class="entry-tags"></span>
         
+          <h1 class="entry-title">O'Botics Up and Running</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        <img src="/roboticists/rowland_oflaherty/rowland_oflaherty.jpg" alt="Rowland O'Flaherty photo" class="author-photo">
+        
+        <span class="author vcard">By <span class="fn"><a href="/about/" title="About Rowland O'Flaherty">Rowland O'Flaherty</a></span></span>
+        <span class="entry-date date published"><time datetime="2014-03-07T00:00:00-05:00"><i class="icon-calendar-empty"></i> March 07, 2014</time></span>
+        <span class="entry-date date modified"><time datetime="2014-03-07"><i class="icon-pencil"></i> March 07, 2014</time></span>
+        
+        <span><a href="/news/site-up-and-running/" rel="bookmark" title="O'Botics Up and Running"><i class="icon-link"></i> Permalink</a></span>
+        
+      </footer>
+      <div class="entry-content">
+        <p>Ok, after a lot of Googling and tweaking I finally got the website up and running with comments and everything else working. A lot of material still needs to be add but the foundation of the site is in place.</p>
 
+<p>Soon I will make a post on how somebody other than myself can add content to the site. The main idea will be to fork the website repos (there are now two repos because GitHub does compile Jekyll plugins) add your content and then do a pull request. The content will be added in one of two places. If you want to add a new robot that will go in the robots folder, if you want to add a new roboticist that will go in the roboticists folder. All material consist of HTML, MD, YAML files. Full tutorial to come.</p>
+
+<p>Also, ideally I would like to move the site from GitHub hosting to something else so an actual forum can be connected with the site, something <a href="http://www.discourse.org/">Discourse</a>. This requires having dynamic pages, which can not be done with GitHub.</p>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<p><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+        
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="/news/trouble-updating-site/" class="btn" title="Trouble Updating The Site">Previous article</a>
+      
+      
+    </nav><!-- /.pagination -->
   </article>
 </div><!-- /#main -->
 
@@ -160,7 +201,7 @@
 <script src="/assets/js/scripts.min.js"></script>
 
 
-          
+
 
 </body>
 </html>
