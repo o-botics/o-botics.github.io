@@ -2,27 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">O'Botics</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://o-botics.org/feed.xml" />
-<link rel="alternate" type="text/html" href="http://o-botics.org" />
-<updated>2014-03-13T18:02:54-04:00</updated>
-<id>http://o-botics.org/</id>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2014-04-02T11:01:57-04:00</updated>
+<id>/</id>
 <author>
   <name>O-Botics</name>
-  <uri>http://o-botics.org/</uri>
+  <uri>/</uri>
   <email>rowoflo@o-botics.org</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[O'Botics Up and Running]]></title>
-  <link rel="alternate" type="text/html" href="http://o-botics.org/news/site-up-and-running/"/>
-  <id>http://o-botics.org/news/site-up-and-running</id>
+  <link rel="alternate" type="text/html" href="/news/site-up-and-running/"/>
+  <id>/news/site-up-and-running</id>
   <updated>2014-03-07T00:00:00-00:00</updated>
   <published>2014-03-07T00:00:00-05:00</published>
   
   <author>
     <name>O-Botics</name>
-    <uri>http://o-botics.org</uri>
+    <uri></uri>
     <email>rowoflo@o-botics.org</email>
   </author>
   <content type="html">&lt;p&gt;Ok, after a lot of Googling and tweaking I finally got the website up and running with comments and everything else working. A lot of material still needs to be added but the foundation of the site is in place.&lt;/p&gt;
@@ -35,8 +35,6 @@
 &lt;script type=&quot;text/javascript&quot;&gt;
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     
-      var disqus_shortname = &#39;o-botics&#39;; // required: replace example with your forum shortname
-    
 
     /* * * DON&#39;T EDIT BELOW THIS LINE * * */
     (function() {
@@ -49,20 +47,20 @@
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;p&gt;&lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://o-botics.org/news/site-up-and-running/&quot;&gt;O'Botics Up and Running&lt;/a&gt; was originally published by O-Botics at &lt;a href=&quot;http://o-botics.org&quot;&gt;O'Botics&lt;/a&gt; on March 07, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/news/site-up-and-running/&quot;&gt;O'Botics Up and Running&lt;/a&gt; was originally published by O-Botics at &lt;a href=&quot;&quot;&gt;O'Botics&lt;/a&gt; on March 07, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Trouble Updating The Site]]></title>
-  <link rel="alternate" type="text/html" href="http://o-botics.org/news/trouble-updating-site/"/>
-  <id>http://o-botics.org/news/trouble-updating-site</id>
+  <link rel="alternate" type="text/html" href="/news/trouble-updating-site/"/>
+  <id>/news/trouble-updating-site</id>
   <updated>2014-03-05T00:00:00-00:00</updated>
   <published>2014-03-05T00:00:00-05:00</published>
   
   <author>
     <name>O-Botics</name>
-    <uri>http://o-botics.org</uri>
+    <uri></uri>
     <email>rowoflo@o-botics.org</email>
   </author>
   <content type="html">&lt;p&gt;I have spent a nontrivial amount of time trying to get the site up and running. Most of that time was spent making it easy to add new robots and roboticists and then have those additions get automatically displayed on the appropriate pages. This is working on my local machine but does not seem to want to work on GitHub for the world to see. This will take some debugging ;-)&lt;/p&gt;
@@ -73,8 +71,6 @@
 &lt;script type=&quot;text/javascript&quot;&gt;
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     
-      var disqus_shortname = &#39;o-botics&#39;; // required: replace example with your forum shortname
-    
 
     /* * * DON&#39;T EDIT BELOW THIS LINE * * */
     (function() {
@@ -87,20 +83,20 @@
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;p&gt;&lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://o-botics.org/news/trouble-updating-site/&quot;&gt;Trouble Updating The Site&lt;/a&gt; was originally published by O-Botics at &lt;a href=&quot;http://o-botics.org&quot;&gt;O'Botics&lt;/a&gt; on March 05, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/news/trouble-updating-site/&quot;&gt;Trouble Updating The Site&lt;/a&gt; was originally published by O-Botics at &lt;a href=&quot;&quot;&gt;O'Botics&lt;/a&gt; on March 05, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Hello World]]></title>
-  <link rel="alternate" type="text/html" href="http://o-botics.org/news/hello-world/"/>
-  <id>http://o-botics.org/news/hello-world</id>
+  <link rel="alternate" type="text/html" href="/news/hello-world/"/>
+  <id>/news/hello-world</id>
   <updated>2014-02-27T00:00:00-00:00</updated>
   <published>2014-02-27T00:00:00-05:00</published>
   
   <author>
     <name>O-Botics</name>
-    <uri>http://o-botics.org</uri>
+    <uri></uri>
     <email>rowoflo@o-botics.org</email>
   </author>
   <content type="html">&lt;p&gt;Hello World from O’Botics. The site is up. Not much on it right now but hopefully that will change quickly.&lt;/p&gt;
@@ -109,8 +105,6 @@
 &lt;script type=&quot;text/javascript&quot;&gt;
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     
-      var disqus_shortname = &#39;o-botics&#39;; // required: replace example with your forum shortname
-    
 
     /* * * DON&#39;T EDIT BELOW THIS LINE * * */
     (function() {
@@ -123,7 +117,7 @@
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;p&gt;&lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://o-botics.org/news/hello-world/&quot;&gt;Hello World&lt;/a&gt; was originally published by O-Botics at &lt;a href=&quot;http://o-botics.org&quot;&gt;O'Botics&lt;/a&gt; on February 27, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/news/hello-world/&quot;&gt;Hello World&lt;/a&gt; was originally published by O-Botics at &lt;a href=&quot;&quot;&gt;O'Botics&lt;/a&gt; on February 27, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
