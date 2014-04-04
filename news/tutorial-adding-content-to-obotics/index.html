@@ -1,0 +1,461 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Tutorial -- Adding Content to O'Botics &#8211; O'Botics</title>
+<meta name="description" content="This post is a first attempt on explaining how to add content to this website, O'Botics">
+<meta name="keywords" content="">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tutorial -- Adding Content to O'Botics">
+<meta property="og:description" content="This post is a first attempt on explaining how to add content to this website, O'Botics">
+<meta property="og:url" content="http://o-botics.org/news/tutorial-adding-content-to-obotics/">
+<meta property="og:site_name" content="O'Botics">
+
+
+
+
+
+<link rel="canonical" href="http://o-botics.org/news/tutorial-adding-content-to-obotics/">
+<link href="http://o-botics.org/feed.xml" type="application/atom+xml" rel="alternate" title="O'Botics Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://o-botics.org/assets/css/main.min.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://o-botics.org/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://o-botics.org/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://o-botics.org/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://o-botics.org/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://o-botics.org/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://o-botics.org/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://o-botics.org/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/">Home</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/about/">About</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/news/">News</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/robots/">Robots</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/roboticists/">Roboticists</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="https://github.com/o-botics" target="_newtab">
+					<i class="icon-github"></i>
+				Repos</a>
+				
+			</li>
+	        
+	        <li><a href="http://o-botics.org/feed.xml" title="Atom/RSS feed" target="_newtab"><i class="icon-rss"></i> Feed</a></li>
+	        
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+
+
+<header class="masthead">
+	<div class="wrap">
+        
+    		<a href="http://o-botics.org" class="site-logo" rel="home" title="O'Botics"><img src="http://o-botics.org/images/site-logo.png" width="200" height="200" alt="O'Botics logo" class="animated fadeInUp"></a>
+        
+        <h1 class="site-title animated fadeIn"><a href="http://o-botics.org">O'Botics</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">A place where roboticists can collaborate on robot designs, code, electronics, and hardware.</h2>
+	</div>
+</header><!-- /.masthead -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        
+          <h1 class="entry-title">Tutorial -- Adding Content to O'Botics</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        <img src="http://o-botics.org/roboticists/oflaherty_rowland/professional.jpg" alt="Rowland O'Flaherty photo" class="author-photo">
+        
+        <span class="author vcard">By <span class="fn"><a href="http://o-botics.org/about/" title="About Rowland O'Flaherty">Rowland O'Flaherty</a></span></span>
+        <span class="entry-date date published"><time datetime="2014-04-02T00:00:00-04:00"><i class="icon-calendar-empty"></i> April 02, 2014</time></span>
+        <span class="entry-date date modified"><time datetime="2014-04-04"><i class="icon-pencil"></i> April 04, 2014</time></span>
+        
+        <span><a href="http://o-botics.org/news/tutorial-adding-content-to-obotics/" rel="bookmark" title="Tutorial -- Adding Content to O'Botics"><i class="icon-link"></i> Permalink</a></span>
+        
+      </footer>
+      <div class="entry-content">
+        <p>The ambition of this website is to be collaborative.
+For that to happen people besides myself need to be able to contribute to the content of the site.
+This tutorial explains how one would contribute content to this site.</p>
+
+<p><strong>I make no claim that the current setup, organization, methodology, etc. of this site is optimal.
+So, if you have any ideas on how to make it better in any way, do not hesitate to comment.</strong></p>
+
+<p><strong>Also, if you want a more detailed explanation of any of the topics below, do not hesitate to comment.</strong></p>
+
+<h1 id="table-of-contents">Table Of Contents</h1>
+<ol>
+  <li><a href="#background">Background</a></li>
+  <li><a href="#getting-the-repositories">Getting The Repositories</a></li>
+  <li><a href="#installing-jekyll">Installing Jekyll</a></li>
+  <li><a href="#testing-jekyll-site">Testing Jekyll Site</a></li>
+  <li><a href="#adding-content">Adding Content</a>
+    <ul>
+      <li><a href="#adding-news">Adding News</a></li>
+      <li><a href="#adding-robots">Adding Robots</a></li>
+      <li><a href="#adding-roboticists">Adding Roboticists</a></li>
+    </ul>
+  </li>
+  <li><a href="#publishing-new-content">Publishing New Content</a></li>
+</ol>
+
+<h1 id="background">Background</h1>
+
+<p>Before I can explain the steps to make contributions to the site let me first describe how the site is hosted and configured.
+The site is hosted as a <a href="https://pages.github.com/">GitHub Page</a> using <a href="http://jekyllrb.com/">Jekyll</a> to build the static web pages.</p>
+
+<p>What does this mean?</p>
+
+<p>GitHub is a web-based hosting service for <a href="http://git-scm.com/">Git</a> (a revision control system) repositories and is where the source files for this site are stored.</p>
+
+<p>The source files and the actual static web pages files are in the following repositories:</p>
+
+<ol>
+  <li><a href="https://github.com/o-botics/website">https://github.com/o-botics/website</a></li>
+  <li><a href="https://github.com/o-botics/o-botics.github.io">https://github.com/o-botics/o-botics.github.io</a></li>
+</ol>
+
+<p>Some may wonder why two different repositories are being used?</p>
+
+<p>The source files can be stored directly in the *.github.io repository and GitHub can build the Jekyll files and deploy the resulting static pages.
+The problem is that GitHub will not build custom Jekyll plugins (see this <a href="http://jekyllrb.com/docs/plugins/">page</a>), which O’Botics uses.
+Thus, the use of the two separate repositories necessary.
+The site is generated locally and pushed directly to the *.github.io repository.</p>
+
+<p>Jekyll is used to create the static pages from HTML and <a href="http://en.wikipedia.org/wiki/Markdown">Markdown</a> files.
+This allows to easily create new pages while maintain similar formatting and style of the rest of the website.
+For example, to create this tutorial page I had to:</p>
+
+<ol>
+  <li>Create a new markdown text file (<code>*.md</code>) in the post directory of the website folder (<code>.../website/_posts</code>)</li>
+  <li>Name it appropriately (<code>YYYY-MM-DD-title.md</code>)</li>
+  <li>Add a <a href="http://en.wikipedia.org/wiki/YAML">YAML</a> header (contains the meta data about the page)</li>
+  <li>Add the content page using markdown syntax</li>
+  <li>Build the page with Jykyll (<code>&gt;&gt; jekyll build</code>)</li>
+  <li>Publish the page to GitHub (<code>&gt;&gt; git commit -a &amp;&amp; git push</code>)</li>
+</ol>
+
+<p>I did not have to worry about any other HTML/CSS to give it the look and feel that matches the rest of the website.
+It is a similar notion to LaTeX, where the formatting is abstracted away from the content.</p>
+
+<p>Ok enough chitchat… how does someone else do this?</p>
+
+<h1 id="getting-the-repositories">Getting The Repositories</h1>
+
+<ol>
+  <li>First create a GitHub account if you do not already have on the <a href="https://github.com/">GitHub Home Page</a>.</li>
+  <li>Fork the repository (Hit the “Fork” button in the upper left of the screen): <a href="https://github.com/o-botics/website">o-botics/website repository</a>.
+    <ul>
+      <li>The GitHub Help page on “forking” is very useful, <a href="https://help.github.com/articles/fork-a-repo">Fork A Repo</a>.</li>
+    </ul>
+  </li>
+  <li>Clone the <em>website</em> repository. To do this navigate to your favorite folder and execute the following command:
+<code>&gt;&gt; git clone https://github.com/USERNAME/website.git</code>
+    <ul>
+      <li>Make sure to replace <em>USERNAME</em> with your GitHub username.</li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="installing-jekyll">Installing Jekyll</h1>
+<ol>
+  <li>
+    <p>Jekyll is built on Ruby, so before installing Jekyll Ruby must be installed.
+If you do not already have Ruby installed follow these instructions for installing Ruby on various operating systems, <a href="https://www.ruby-lang.org/en/installation/">installing Rudy</a>.</p>
+  </li>
+  <li>Next install Jekyll with the following command: <code>&gt;&gt; gem install jekyll</code>
+    <ul>
+      <li>Windows users this site will be helpful, <a href="http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html">Running Jekyll On Windows</a>.</li>
+    </ul>
+  </li>
+  <li>This site uses Kramdown to convert the markdown to HTML. Install Kramdown with the following command: <code>&gt;&gt; gem install kramdown</code></li>
+</ol>
+
+<h1 id="testing-jekyll-site">Testing Jekyll Site</h1>
+<p>You should now have everything you need to start adding content to the site.
+To test the setup and for development, Jekyll comes with a built-in development server that allows you to preview the site in your local browser.</p>
+
+<ol>
+  <li>Navigate to the folder in which you cloned the <em>website</em> repository into, something like <code>&gt;&gt; cd ~/.../website</code></li>
+  <li>Open the <code>.../website/_config.yml</code> file with your favorite text editor.</li>
+  <li>Comment out the URL line (approx. line 7).
+    <ul>
+      <li>Should look like this: <code># url: http://o-botics.org</code>.
+  This will set the default URL of the site to <code>http://localhost:4000</code>.</li>
+    </ul>
+  </li>
+  <li>Build the site with Jekyll. Run the following command in the <em>website</em> folder to do this, <code>&gt;&gt; jekyll build</code></li>
+  <li>Activate the Jekyll web server. Run the following command in the <em>website</em> folder to do this, <code>&gt;&gt; jekyll serve</code></li>
+  <li>Check out the site in your favorite browser by navigating to <code>http://localhost:4000</code>.</li>
+</ol>
+
+<p>Every time you change something you have to rebuild the site with the build command.
+This can get annoying, so instead you can run <code>&gt;&gt; jekyll serve --watch</code> command, which will automatically build the site if any of the files change.
+Except for if the configuration file, <code>.../website/_config.yml</code>, changes.
+In that case you must use the build command, <code>jekyll build</code>.</p>
+
+<h1 id="adding-content">Adding content</h1>
+<p>To add content to the site you simply create a new file of the appropriate type and save it into the appropriate folder, Jekyll takes care of the rest.
+Using the current files as examples should be a very useful and a good way to start.</p>
+
+<h3 id="adding-news">Adding News</h3>
+<p>To create a new post, which gets added to the “News” tab of the site follow these steps.</p>
+
+<ol>
+  <li>Copy the post template file,<code>YYYY-MM-DD-post-title.md</code>, from the <code>.../website/_templates/</code> folder to the <code>.../website/_posts/</code> folder.</li>
+  <li>Rename the file to current date and desired title, making sure to following the correct format. For example, <code>2014-02-27-hello-world.md</code> is a valid name.
+The date in the file name will be the creation date on the left side the website page.</li>
+  <li>Update the meta data of the post.
+At the top of the file is some YAML content, which contains all of the meta data for the post.
+Do not change the first two lines, but edit the following lines appropriately (see the other posts for examples).
+    <ul>
+      <li>The avatar picture file is relative to the <code>.../website/roboticists/</code> folder.</li>
+    </ul>
+  </li>
+  <li>Add content below the YAML section of the file.
+Do not edit the bottom of the file.
+This section is the javascript that is used to display the <a href="http://disqus.com/">Disqus</a> comments.</li>
+  <li>If you are running <code>&gt;&gt; jekyll serve --watch</code>, after each time you save the file, you should see the changes appear in your browser (you probably have to hit the refresh button in your browser).</li>
+</ol>
+
+<h3 id="adding-robots">Adding Robots</h3>
+<p>Adding a new robot is very similar to adding a new post.
+The major difference is that there is a deeper folder structure organization that is employed.
+The robot folder structure is organized as follows:</p>
+
+<pre><code>.../website/robots
+              |
+              -&gt; Robot
+                   |
+                   -&gt; index.md
+                   -&gt; Model
+                         |
+                         -&gt; index.md
+                         -&gt; Version
+                              |
+                              -&gt; index.md
+                              -&gt;other files
+
+</code></pre>
+
+<p>The idea behind this structure is that as a robot evolves it can build off earlier versions and models.
+As an example, take a look at the QuickBot robot MOOC model v1 version.</p>
+
+<p>To add a new robot follow these steps.</p>
+
+<ol>
+  <li>Create a new robot folder in the <code>.../website/robots/</code> folder.
+    <ul>
+      <li>For example <code>&gt;&gt; mkdir robots/new_robot</code></li>
+    </ul>
+  </li>
+  <li>Copy the robot template, <code>robot_index.md</code>, from the <code>.../website/_templates/</code> folder to your new robot folder and rename to <code>index.md</code>.
+    <ul>
+      <li>For example <code>&gt;&gt; cp _templates/robot_index.md robots/new_robot/index.md</code></li>
+    </ul>
+  </li>
+  <li>Edit YAML content at the top this new robot file.
+    <ul>
+      <li>Do not change the first two lines of the YAML content.</li>
+    </ul>
+  </li>
+  <li>Create a new model folder in the robot folder that you just created.
+    <ul>
+      <li>For example <code>&gt;&gt; mkdir robots/new_robot/new_model</code></li>
+    </ul>
+  </li>
+  <li>Copy the model template, <code>robot_model_index.md</code>, from the <code>.../website/_templates</code> folder to your new model folder and rename to <code>index.md</code>.
+    <ul>
+      <li>For example <code>&gt;&gt; cp _templates/robot_model_index.md robots/new_robot/new_model</code></li>
+    </ul>
+  </li>
+  <li>Edit YAML content at the top this new model file.
+    <ul>
+      <li>Do not change the first two lines of the YAML content.</li>
+    </ul>
+  </li>
+  <li>Create a new version folder in the model folder that you just created.
+    <ul>
+      <li>For example <code>&gt;&gt; mkdir robots/new_robot/new_model/new_version</code></li>
+    </ul>
+  </li>
+  <li>Copy the version template, <code>robot_model_version_index.md</code>, from the <code>.../website/_templates</code> folder to your new version folder and rename to <code>index.md</code>.</li>
+  <li>Edit YAML content at the top this new version file.
+    <ul>
+      <li>Do not change the first two lines of the YAML content.</li>
+    </ul>
+  </li>
+  <li>Add the content about the robot to the version file in the content area.</li>
+  <li>Add additional files about the version of the robot by creating new version files and linking to them with the links in the YAML section at the top of the file.
+    <ul>
+      <li>These additional files obviously can not be named <code>index.md</code> and must be named something else.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="adding-roboticists">Adding Roboticists</h3>
+<p>Adding a new roboticist is very similar to adding a new post.
+All the files associated with a roboticist must be placed in an individual folder under the <code>.../website/roboticists/</code>.</p>
+
+<p>To add a new roboticists follow these steps.</p>
+
+<ol>
+  <li>Create a new roboticist folder in the <code>.../website/roboticists/</code> folder and name it using your last and first name, like <code>last_first</code>.</li>
+  <li>Copy the roboticist template, <code>roboticist.yaml</code>, from the <code>.../website/_templates/</code> folder to your new roboticist folder and rename to your last_first name (same name as the folder) with the ‘yml’ extension, like <code>last_first.yml</code>.</li>
+  <li>Add an avatar image to this new folder.</li>
+</ol>
+
+<h1 id="publishing-new-content">Publishing New Content</h1>
+<p>Once you have added all your new content and checked that everything is perfect by previewing the site in your local browser then you are ready to publish to the world.</p>
+
+<p>Follow these steps to publish.</p>
+
+<ol>
+  <li>Uncomment the url line (approx. line 7) in <code>.../website/_config.yml</code>.
+    <ul>
+      <li>Should look like this: <code>url: http://o-botics.org</code>.</li>
+    </ul>
+  </li>
+  <li>Build the site one last time with <code>&gt;&gt; jekyll build</code>.</li>
+  <li>Commit your changes to the the website Git repository with <code>&gt;&gt; git commit -am "Your commit message here."</code></li>
+  <li>Push your changes with <code>&gt;&gt; git push</code>.</li>
+  <li>Submit a pull request from your GitHub account.
+    <ul>
+      <li>Use the GitHub Help page on “pull request” to learn how to do this, <a href="https://help.github.com/articles/using-pull-requests">Using Pull Request</a>.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>One of the moderators of the O’Botics will review your pull request and (most likely) accept it. Then it will be available for the entire world to see!</p>
+
+<p>At the time of writing this tutorial I am the only moderator, but if you would like to be a moderator (anybody is welcome) please send me a message.</p>
+
+<!-- Do not edit below this line -->
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    
+      var disqus_shortname = 'o-botics'; // required: replace example with your forum shortname
+    
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<p><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://o-botics.org/news/site-up-and-running/" class="btn" title="O'Botics Up and Running">Previous article</a>
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2014 O-Botics. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://o-botics.org/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://o-botics.org/assets/js/scripts.min.js"></script>
+
+
+
+
+</body>
+</html>
