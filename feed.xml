@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://o-botics.org/feed.xml" />
 <link rel="alternate" type="text/html" href="http://o-botics.org" />
-<updated>2014-04-04T12:46:38-04:00</updated>
+<updated>2014-04-17T11:49:23-04:00</updated>
 <id>http://o-botics.org/</id>
 <author>
   <name>O-Botics</name>
@@ -17,7 +17,7 @@
   <title type="html"><![CDATA[Tutorial -- Adding Content to O'Botics]]></title>
   <link rel="alternate" type="text/html" href="http://o-botics.org/news/tutorial-adding-content-to-obotics/"/>
   <id>http://o-botics.org/news/tutorial-adding-content-to-obotics</id>
-  <updated>2014-04-04T00:00:00-00:00</updated>
+  <updated>2014-04-17T00:00:00-00:00</updated>
   <published>2014-04-02T00:00:00-04:00</published>
   
   <author>
@@ -27,10 +27,9 @@
   </author>
   <content type="html">&lt;p&gt;The ambition of this website is to be collaborative.
 For that to happen people besides myself need to be able to contribute to the content of the site.
-This tutorial explains how one would contribute content to this site.&lt;/p&gt;
+This tutorial explains how to contribute content to this site.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;I make no claim that the current setup, organization, methodology, etc. of this site is optimal.
-So, if you have any ideas on how to make it better in any way, do not hesitate to comment.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Any ideas or comments to improve the setup and organization of this site are welcome.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Also, if you want a more detailed explanation of any of the topics below, do not hesitate to comment.&lt;/strong&gt;&lt;/p&gt;
 
@@ -52,7 +51,7 @@ So, if you have any ideas on how to make it better in any way, do not hesitate t
 
 &lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
 
-&lt;p&gt;Before I can explain the steps to make contributions to the site let me first describe how the site is hosted and configured.
+&lt;p&gt;Let me first describe how the site is hosted and configured.
 The site is hosted as a &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Page&lt;/a&gt; using &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to build the static web pages.&lt;/p&gt;
 
 &lt;p&gt;What does this mean?&lt;/p&gt;
@@ -69,32 +68,32 @@ The site is hosted as a &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitH
 &lt;p&gt;Some may wonder why two different repositories are being used?&lt;/p&gt;
 
 &lt;p&gt;The source files can be stored directly in the *.github.io repository and GitHub can build the Jekyll files and deploy the resulting static pages.
-The problem is that GitHub will not build custom Jekyll plugins (see this &lt;a href=&quot;http://jekyllrb.com/docs/plugins/&quot;&gt;page&lt;/a&gt;), which O’Botics uses.
-Thus, the use of the two separate repositories necessary.
+The problem is that &lt;a href=&quot;http://jekyllrb.com/docs/plugins/&quot;&gt;GitHub will not build custom Jekyll plugins&lt;/a&gt;, which O’Botics uses.
+Thus, the use of the two separate repositories are necessary.
 The site is generated locally and pushed directly to the *.github.io repository.&lt;/p&gt;
 
 &lt;p&gt;Jekyll is used to create the static pages from HTML and &lt;a href=&quot;http://en.wikipedia.org/wiki/Markdown&quot;&gt;Markdown&lt;/a&gt; files.
-This allows to easily create new pages while maintain similar formatting and style of the rest of the website.
+This allows to easily create new pages while maintain the similar formatting and style from the rest of the website.
 For example, to create this tutorial page I had to:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Create a new markdown text file (&lt;code&gt;*.md&lt;/code&gt;) in the post directory of the website folder (&lt;code&gt;.../website/_posts&lt;/code&gt;)&lt;/li&gt;
   &lt;li&gt;Name it appropriately (&lt;code&gt;YYYY-MM-DD-title.md&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;Add a &lt;a href=&quot;http://en.wikipedia.org/wiki/YAML&quot;&gt;YAML&lt;/a&gt; header (contains the meta data about the page)&lt;/li&gt;
+  &lt;li&gt;Add a &lt;a href=&quot;http://en.wikipedia.org/wiki/YAML&quot;&gt;YAML&lt;/a&gt; header (contains the metadata about the page)&lt;/li&gt;
   &lt;li&gt;Add the content page using markdown syntax&lt;/li&gt;
-  &lt;li&gt;Build the page with Jykyll (&lt;code&gt;&amp;gt;&amp;gt; jekyll build&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Build the page with Jekyll (&lt;code&gt;&amp;gt;&amp;gt; jekyll build&lt;/code&gt;)&lt;/li&gt;
   &lt;li&gt;Publish the page to GitHub (&lt;code&gt;&amp;gt;&amp;gt; git commit -a &amp;amp;&amp;amp; git push&lt;/code&gt;)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I did not have to worry about any other HTML/CSS to give it the look and feel that matches the rest of the website.
-It is a similar notion to LaTeX, where the formatting is abstracted away from the content.&lt;/p&gt;
+&lt;p&gt;I did not have to worry about any other HTML/CSS to give it the look and feel of the website.
+It is similar to LaTeX, where the formatting is abstracted away from the content.&lt;/p&gt;
 
 &lt;p&gt;Ok enough chitchat… how does someone else do this?&lt;/p&gt;
 
 &lt;h1 id=&quot;getting-the-repositories&quot;&gt;Getting The Repositories&lt;/h1&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;First create a GitHub account if you do not already have on the &lt;a href=&quot;https://github.com/&quot;&gt;GitHub Home Page&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;First &lt;a href=&quot;https://github.com&quot;&gt;create a GitHub account&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Fork the repository (Hit the “Fork” button in the upper left of the screen): &lt;a href=&quot;https://github.com/o-botics/website&quot;&gt;o-botics/website repository&lt;/a&gt;.
     &lt;ul&gt;
       &lt;li&gt;The GitHub Help page on “forking” is very useful, &lt;a href=&quot;https://help.github.com/articles/fork-a-repo&quot;&gt;Fork A Repo&lt;/a&gt;.&lt;/li&gt;
@@ -111,8 +110,7 @@ It is a similar notion to LaTeX, where the formatting is abstracted away from th
 &lt;h1 id=&quot;installing-jekyll&quot;&gt;Installing Jekyll&lt;/h1&gt;
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Jekyll is built on Ruby, so before installing Jekyll Ruby must be installed.
-If you do not already have Ruby installed follow these instructions for installing Ruby on various operating systems, &lt;a href=&quot;https://www.ruby-lang.org/en/installation/&quot;&gt;installing Rudy&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/installation/&quot;&gt;Install Ruby&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Next install Jekyll with the following command: &lt;code&gt;&amp;gt;&amp;gt; gem install jekyll&lt;/code&gt;
     &lt;ul&gt;
@@ -124,7 +122,7 @@ If you do not already have Ruby installed follow these instructions for installi
 
 &lt;h1 id=&quot;testing-jekyll-site&quot;&gt;Testing Jekyll Site&lt;/h1&gt;
 &lt;p&gt;You should now have everything you need to start adding content to the site.
-To test the setup and for development, Jekyll comes with a built-in development server that allows you to preview the site in your local browser.&lt;/p&gt;
+To test the setup and for development, Jekyll comes with a built-in development server that allows you to preview the site locally.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Navigate to the folder in which you cloned the &lt;em&gt;website&lt;/em&gt; repository into, something like &lt;code&gt;&amp;gt;&amp;gt; cd ~/.../website&lt;/code&gt;&lt;/li&gt;
@@ -146,8 +144,8 @@ Except for if the configuration file, &lt;code&gt;.../website/_config.yml&lt;/co
 In that case you must use the build command, &lt;code&gt;jekyll build&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;adding-content&quot;&gt;Adding content&lt;/h1&gt;
-&lt;p&gt;To add content to the site you simply create a new file of the appropriate type and save it into the appropriate folder, Jekyll takes care of the rest.
-Using the current files as examples should be a very useful and a good way to start.&lt;/p&gt;
+&lt;p&gt;To add content to the site simply create a new file of the appropriate type and save it into the appropriate folder, Jekyll takes care of the rest.
+Using the current files as examples is a good way to start.&lt;/p&gt;
 
 &lt;h3 id=&quot;adding-news&quot;&gt;Adding News&lt;/h3&gt;
 &lt;p&gt;To create a new post, which gets added to the “News” tab of the site follow these steps.&lt;/p&gt;
@@ -156,8 +154,8 @@ Using the current files as examples should be a very useful and a good way to st
   &lt;li&gt;Copy the post template file,&lt;code&gt;YYYY-MM-DD-post-title.md&lt;/code&gt;, from the &lt;code&gt;.../website/_templates/&lt;/code&gt; folder to the &lt;code&gt;.../website/_posts/&lt;/code&gt; folder.&lt;/li&gt;
   &lt;li&gt;Rename the file to current date and desired title, making sure to following the correct format. For example, &lt;code&gt;2014-02-27-hello-world.md&lt;/code&gt; is a valid name.
 The date in the file name will be the creation date on the left side the website page.&lt;/li&gt;
-  &lt;li&gt;Update the meta data of the post.
-At the top of the file is some YAML content, which contains all of the meta data for the post.
+  &lt;li&gt;Update the metadata of the post.
+At the top of the file is some YAML content, which contains all of the metadata for the post.
 Do not change the first two lines, but edit the following lines appropriately (see the other posts for examples).
     &lt;ul&gt;
       &lt;li&gt;The avatar picture file is relative to the &lt;code&gt;.../website/roboticists/&lt;/code&gt; folder.&lt;/li&gt;
@@ -166,7 +164,7 @@ Do not change the first two lines, but edit the following lines appropriately (s
   &lt;li&gt;Add content below the YAML section of the file.
 Do not edit the bottom of the file.
 This section is the javascript that is used to display the &lt;a href=&quot;http://disqus.com/&quot;&gt;Disqus&lt;/a&gt; comments.&lt;/li&gt;
-  &lt;li&gt;If you are running &lt;code&gt;&amp;gt;&amp;gt; jekyll serve --watch&lt;/code&gt;, after each time you save the file, you should see the changes appear in your browser (you probably have to hit the refresh button in your browser).&lt;/li&gt;
+  &lt;li&gt;If you are running &lt;code&gt;&amp;gt;&amp;gt; jekyll serve --watch&lt;/code&gt;, after each time you save the file, you should see the changes appear in your browser after hitting refresh.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;adding-robots&quot;&gt;Adding Robots&lt;/h3&gt;
@@ -185,7 +183,7 @@ The robot folder structure is organized as follows:&lt;/p&gt;
                          -&amp;gt; Version
                               |
                               -&amp;gt; index.md
-                              -&amp;gt;other files
+                              -&amp;gt; other files
 
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -272,7 +270,7 @@ All the files associated with a roboticist must be placed in an individual folde
   &lt;li&gt;Push your changes with &lt;code&gt;&amp;gt;&amp;gt; git push&lt;/code&gt;.&lt;/li&gt;
   &lt;li&gt;Submit a pull request from your GitHub account.
     &lt;ul&gt;
-      &lt;li&gt;Use the GitHub Help page on “pull request” to learn how to do this, &lt;a href=&quot;https://help.github.com/articles/using-pull-requests&quot;&gt;Using Pull Request&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;Use the &lt;a href=&quot;https://help.github.com/articles/using-pull-requests&quot;&gt;GitHub Help page on “pull request”&lt;/a&gt; to learn how to do this.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
