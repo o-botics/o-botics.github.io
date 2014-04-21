@@ -1,0 +1,801 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<head>
+<style>
+.sq_img_300 {
+  width: 300px;
+  float: left;
+}
+</style>
+<meta charset="utf-8">
+<title>QuickBot MOOC v2 -- Building &#8211; O'Botics</title>
+<meta name="description" content="A place where roboticists can collaborate on robot designs, code, electronics, and hardware.">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="QuickBot MOOC v2 -- Building">
+<meta property="og:description" content="A place where roboticists can collaborate on robot designs, code, electronics, and hardware.">
+<meta property="og:url" content="http://o-botics.org/robots/quickbot/mooc/v2/building.html">
+<meta property="og:site_name" content="O'Botics">
+
+
+
+
+
+<link rel="canonical" href="http://o-botics.org/robots/quickbot/mooc/v2/building.html">
+<link href="http://o-botics.org/feed.xml" type="application/atom+xml" rel="alternate" title="O'Botics Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://o-botics.org/assets/css/main.min.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://o-botics.org/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://o-botics.org/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://o-botics.org/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://o-botics.org/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://o-botics.org/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://o-botics.org/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://o-botics.org/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="page">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/">Home</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/about/">About</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/news/">News</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/robots/">Robots</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/roboticists/">Roboticists</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="https://github.com/o-botics" target="_newtab">
+					<i class="icon-github"></i>
+				Repos</a>
+				
+			</li>
+	        
+	        <li><a href="http://o-botics.org/feed.xml" title="Atom/RSS feed" target="_newtab"><i class="icon-rss"></i> Feed</a></li>
+	        
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+
+
+<header class="masthead">
+	<div class="wrap">
+        
+    		<a href="http://o-botics.org" class="site-logo" rel="home" title="O'Botics"><img src="http://o-botics.org/images/site-logo.png" width="200" height="200" alt="O'Botics logo" class="animated fadeInUp"></a>
+        
+        <h1 class="site-title animated fadeIn"><a href="http://o-botics.org">O'Botics</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">A place where roboticists can collaborate on robot designs, code, electronics, and hardware.</h2>
+	</div>
+</header><!-- /.masthead -->
+
+
+<div id="main" role="main">
+  <article class="entry">
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <h1 class="entry-title">QuickBot MOOC v2 -- Building</h1>
+      </header>
+      <div class="entry-content">
+      <p style="text-align:left;">
+        <a href="parts_list.html">&#8592;Parts Lists</a>
+        
+      </p>
+        
+        <ul id="markdown-toc">
+  <li><a href="#rocker-switch-wiring-assembly">Rocker Switch Wiring Assembly</a></li>
+  <li><a href="#dc-plug-wiring-assembly">DC Plug Wiring Assembly</a></li>
+  <li><a href="#power-supply-assembly">Power Supply Assembly</a></li>
+  <li><a href="#ir-sensor-assembly">IR Sensor Assembly</a></li>
+  <li><a href="#encoder-cable-assembly">Encoder Cable Assembly</a></li>
+  <li><a href="#ir-cable-assembly">IR Cable Assembly</a></li>
+  <li><a href="#logic-level-converter-assembly">Logic Level Converter Assembly</a></li>
+  <li><a href="#breadboard-assembly">Breadboard Assembly</a></li>
+  <li><a href="#motor-encoder-assembly">Motor-Encoder Assembly</a></li>
+  <li><a href="#bottom-chassis-with-motors-assembly">Bottom Chassis With Motors Assembly</a></li>
+  <li><a href="#bottom-chassis-with-wheels-assembly">Bottom Chassis With Wheels Assembly</a></li>
+  <li><a href="#bottom-chassis-with-voltage-regulators">Bottom Chassis With Voltage Regulators</a></li>
+  <li><a href="#bottom-chassis-with-ir-sensors-assembly">Bottom Chassis With IR Sensors Assembly</a></li>
+  <li><a href="#top-chassis-plate-assembly">Top Chassis Plate Assembly</a></li>
+  <li><a href="#top-chassis-plate-with-bbb-assembly">Top Chassis Plate With BBB Assembly</a></li>
+  <li><a href="#quickbot-assembly">QuickBot Assembly</a></li>
+</ul>
+
+<h1 id="rocker-switch-wiring-assembly">Rocker Switch Wiring Assembly</h1>
+
+<p><strong>Number to build: 1</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - 2-pin Female Smaller JST Uh-oh Connector</li>
+  <li>1 - 3-pin Rocker Switch</li>
+  <li>2 - 2-pin Male Red JST Battery Connector</li>
+  <li>2 - 1/2” Heat Shrink Tubing</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Wire Strippers</li>
+  <li>Wire Cutters</li>
+  <li>Soldering Iron</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>(2) Cut red JST battery connector wires to 3.5” and strip 1/4” from ends.</li>
+  <li>(2) Untwist 1 JST wire 1” and strip 1/4” from end.</li>
+  <li>
+    <p>(2) Cut 1/2” heat shrink tubing</p>
+
+    <p class="sq_img_300"><img src="build_pics/power_wiring_assembly_1.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+  <li>(2) Twist all 3 black wires together, insert through heat shrink tube.</li>
+  <li>
+    <p>(2) Twist all 3 red wires together, insert through heat shrink tube.</p>
+
+    <p class="sq_img_300"><img src="build_pics/power_wiring_assembly_2.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+  <li>Solder black wires to middle pin of switch.</li>
+  <li>Solder red wires to pin on “O” side of switch.
+    <ul>
+      <li><strong>Pro tip:</strong> Solder wires together first, then solder to lead of the switch.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Heat shrink the tubing around solder points.</p>
+
+    <p class="sq_img_300"><img src="build_pics/power_wiring_assembly_3.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="dc-plug-wiring-assembly">DC Plug Wiring Assembly</h1>
+
+<p><strong>Number to build: 1</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>2 - 2-pin Female Larger JST Volt Reg Connector</li>
+  <li>1 - DC Barrel Plug</li>
+  <li>1 - 2-pin Female Smaller JST Uh-oh Connector</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Wire Strippers</li>
+  <li>Wire Cutters</li>
+  <li>Small Screw Driver</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>Strip all other JST wires 1/4” from end.</li>
+  <li>Twist all 3 black wires together and screw into negative terminal of DC plug.</li>
+  <li>
+    <p>Twist all 3 red wires together and screw into positive terminal of DC plug.</p>
+
+    <p class="sq_img_300"><img src="build_pics/power_wiring_assembly_4.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="power-supply-assembly">Power Supply Assembly</h1>
+
+<p><strong>Number to build: 1</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - Rocker Switch Wiring Assembly</li>
+  <li>1 - DC Plug Wiring Assembly</li>
+  <li>1 - Uh-oh battery indicator Board Kit</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Soldering Iron</li>
+  <li>Solder</li>
+  <li>Small Screw Driver</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>Solder on all components to Uh-oh battery indicator board.</li>
+  <li>Adjust Uh-oh battery indicator board to 11V and label.</li>
+  <li>Adjust one voltage regulator to 5V and label.</li>
+  <li>Adjust one voltage regulator to 9V and label.</li>
+  <li>Plug rocker switch wiring assembly into “Batt” on Uh-oh battery indicator board.</li>
+  <li>Plug DC plug wiring assembly into “Sys” on Uh-oh battery indicator board.</li>
+  <li>
+    <p>Plug large JST plugs into “IN” on voltage regulators.</p>
+
+    <p class="sq_img_300"><img src="build_pics/power_wiring_assembly_5.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="ir-sensor-assembly">IR Sensor Assembly</h1>
+
+<p><strong>Number to build: 5</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - IR Sensor</li>
+  <li>2 - 1/4” 4-40 Screws</li>
+  <li>2 - 4-40 Angle Brackets</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Small Screw Driver</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>
+    <p>(2) Screw the screw through IR sensor hole into threaded angle bracket hole with the angle bracket on the backside of the IR sensor.</p>
+
+    <p class="sq_img_300"><img src="build_pics/IR_sensor_assembly_1.jpg" alt="" /></p>
+
+    <p class="sq_img_300"><img src="build_pics/IR_sensor_assembly_2.jpg" alt="" />
+ <strong>IR Sensor Assembly</strong></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="encoder-cable-assembly">Encoder Cable Assembly</h1>
+
+<p><strong>Number to build: 2</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - Encoder Ribbon Cable</li>
+  <li>5 - Female Molex Crimp Pins</li>
+  <li>1 - 5-pin Molex Header</li>
+  <li>2 - 1x2-pin 0.1” Crimp Connector Housing</li>
+  <li>1 - 1x1-pin 0.1” Crimp Connector Housing</li>
+  <li>5 - 0.1” Male Crimp Pins</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Wire Strippers</li>
+  <li>Wire Cutters</li>
+  <li>Crimpers</li>
+  <li>Needle Nose Pliers</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>Separate 3/4” of the ribbon cable in to individual wires.</li>
+  <li>Strip 1/8” of insulation from each write and twist ends they are no frayed.</li>
+  <li>Crimp female Molex crimp pin to each wire.
+    <ul>
+      <li><strong>Note:</strong> Make sure to crimp pin in correct orientation.**</li>
+    </ul>
+
+    <p class="sq_img_300"><img src="build_pics/encoder_cable_assembly_1.jpg" alt="" /></p>
+
+    <p class="sq_img_300"><img src="build_pics/encoder_cable_assembly_2.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+  <li>Separate 3/4” of the other end of the ribbon cable into individual wires.</li>
+  <li>Strip 1/8” of insulation from each wire and twist ends so they are not frayed.</li>
+  <li>Crimp 0.1” male crimp pin to each wire.</li>
+  <li>Insert white &amp; gray or yellow &amp; orange wires into 1x2 0.1” crimp connector housing.</li>
+  <li>Insert black &amp; blue or green &amp; brown wire into 1x2 0.1” crimp connector housing.</li>
+  <li>
+    <p>Insert purple or red into 1x1 0.1” crimp connector housing.</p>
+
+    <p class="sq_img_300"><img src="build_pics/encoder_cable_assembly_3.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="ir-cable-assembly">IR Cable Assembly</h1>
+
+<p><strong>Number to build: 5</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - 3-pin Female JST IR Sensor Connector</li>
+  <li>1 - 1x2-pin 0.1” Crimp Connector Housing</li>
+  <li>1 - 1x1-pin 0.1” Crimp Connector Housing</li>
+  <li>3 - 0.1” Male Crimp Pins</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Wire Strippers</li>
+  <li>Wire Cutters</li>
+  <li>Crimpers</li>
+  <li>Needle Nose Pliers</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>Cut connector wires to 7” and strip off 1/8” of insulation from the ends.</li>
+  <li>Crimp on crimp pins to each wire end.</li>
+  <li>Insert red and black wire into 1x2-pin connector housing.</li>
+  <li>
+    <p>Insert white wire into 1x1-pin connector housing.</p>
+
+    <p class="sq_img_300"><img src="build_pics/IR_cable_assembly_1.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="logic-level-converter-assembly">Logic Level Converter Assembly</h1>
+
+<p><strong>Number to build: 1</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - Logic Level Converter Board</li>
+  <li>2 - 6-pin Male Breakaway Header Pins</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Soldering Iron</li>
+  <li>Solder</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>Solder header pins to board.
+    <ul>
+      <li><strong>Note:</strong> The black portion of the header pins sits flush against the bottom of the board.</li>
+      <li><strong>Pro Tip:</strong> Place header pins into a breadboard for easy soldering.</li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="breadboard-assembly">Breadboard Assembly</h1>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - Logic Level Converter Assembly</li>
+  <li>1 - Breadboard</li>
+  <li>1 - H-Bridge</li>
+  <li>6 - 4/10” Breadboard Jumper Wires (orange)</li>
+  <li>4 - 5/10” Breadboard Jumper Wires (yellow)</li>
+  <li>5 - 20k Ohm Resistors (red-black-orange-gold)</li>
+  <li>5 - 10k Ohm Resistors (brown-black-orange-gold)</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>
+    <p>Instal all components onto breadboard as shown in the image.</p>
+
+    <p class="sq_img_300"><img src="build_pics/breadboard_assembly_1.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="motor-encoder-assembly">Motor-Encoder Assembly</h1>
+
+<p><strong>Number to build: 2</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - Encoder Disc Sticker</li>
+  <li>1 - Speed Board Disc</li>
+  <li>1 - Wheel Encoder</li>
+  <li>1 - Motor</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>Stick encoder disc sticker onto wheel encoder disc.
+    <ul>
+      <li><strong>Note:</strong> Make sure to place directly in the center of the disc!</li>
+    </ul>
+  </li>
+  <li>Fit wheel encoder onto motor using round notch as an alignment guide.</li>
+  <li>
+    <p>Slide disc with sticker on to motor axle with the sticker facing the encoder.</p>
+
+    <p class="sq_img_300"><img src="build_pics/motor-encoder_assembly_1.jpg" alt="" /></p>
+
+    <p class="sq_img_300"><img src="build_pics/motor-encoder_assembly_2.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="bottom-chassis-with-motors-assembly">Bottom Chassis With Motors Assembly</h1>
+
+<p><strong>Number to build: 1</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>2 - Motor-Encoder Assembly</li>
+  <li>1 - Bottom Chassis Plate</li>
+  <li>4 - Motor Holders (2 modified, 2 normal)</li>
+  <li>4 - M3*30 Screw</li>
+  <li>4 - M3 Nut</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Small Screw Driver</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>
+    <p>Place modified motor holders through slots in the bottom chassis plate, orientated such that modified edge of motor holders are on the front side of chassis (rounded edge).</p>
+
+    <p class="sq_img_300"><img src="build_pics/bottom_chassis_with_motors_1.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+  <li>
+    <p>Install motor-encoder assembly with black wires of motors away from chassis.</p>
+
+    <p class="sq_img_300"><img src="build_pics/bottom_chassis_with_motors_2.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="bottom-chassis-with-wheels-assembly">Bottom Chassis With Wheels Assembly</h1>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - Bottom Chassis With Motors Assembly</li>
+  <li>2 - Wheel</li>
+  <li>1 - Omni Wheel</li>
+  <li>4 - M3*6 Screw</li>
+  <li>2 - L25 Spacer</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Small Screw Driver</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>Slide wheels onto motor axels.</li>
+  <li>Screw two L25 spacers onto the omni wheel.</li>
+  <li>
+    <p>Screw omni with spacers onto the bottom back (flat edge) of chassis assembly.</p>
+
+    <p class="sq_img_300"><img src="build_pics/bottom_chassis_with_wheels_1.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<p>#</p>
+
+<h1 id="bottom-chassis-with-voltage-regulators">Bottom Chassis With Voltage Regulators</h1>
+
+<p><strong>Number to build: 1</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - Bottom Chassis With Motors Assembly</li>
+  <li>2 - Voltage Regulators</li>
+  <li>4 - 1/2” 4-40 Screw</li>
+  <li>8 - 4-40 Nut</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Small Screw Driver</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>
+    <p>Add voltage regulators to top front of chassis assembly using screws and nuts. With each screw use one nut as a spacer between the voltage regulator and the chassis and one nut to secure the screw from the bottom of the chassis.</p>
+
+    <p class="sq_img_300"><img src="build_pics/bottom_chassis_with_vol_reg_1.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="bottom-chassis-with-ir-sensors-assembly">Bottom Chassis With IR Sensors Assembly</h1>
+
+<p><strong>Number to build: 1</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - Bottom Chassis With Voltage Regulators</li>
+  <li>1 - Breadboard Assembly</li>
+  <li>2 - IR Sensor Assembly</li>
+  <li>4 - 1/2” 4-40 Screw</li>
+  <li>4 - 4-40 Nut</li>
+  <li>4 - L25 Spacer</li>
+  <li>4 - M3 Nut</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Small Screw Driver</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>Add IR sensors to front of bottom chassis.</li>
+  <li>Stick on breadboard to top of bottom chassis. Make sure to have it flush against the motor mounts.</li>
+  <li>
+    <p>Mount L25 spacers to four corners of bottom chassis.</p>
+
+    <p class="sq_img_300"><img src="build_pics/bottom_chassis_with_ir_sensors_1.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="top-chassis-plate-assembly">Top Chassis Plate Assembly</h1>
+
+<p><strong>Number to build: 1</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>3 - IR Sensor Assembly</li>
+  <li>1 - Power Supply Assembly</li>
+  <li>1 - Top Chassis Plate</li>
+  <li>8 - 1/2” 4-40 Screw</li>
+  <li>10 - 4-40 Nut</li>
+  <li>3 - Zip Ties</li>
+  <li>4 - L10 Spacer</li>
+  <li>4 - M3 Screw</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Small Screw Driver</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>
+    <p>Add L10 spacers to top plate.</p>
+
+    <p class="sq_img_300"><img src="build_pics/top_chassis_plate_assembly_1.jpg" alt="" /></p>
+
+    <p class="sq_img_300"><img src="build_pics/top_chassis_plate_assembly_2.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+  <li>Add Uh-oh board to top plate.</li>
+  <li>
+    <p>Zip tie on switch and DC plug to front of plate.</p>
+
+    <p class="sq_img_300"><img src="build_pics/top_chassis_plate_assembly_3.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+  <li>
+    <p>Add three IR sensors assemblies to top of plate.</p>
+
+    <p class="sq_img_300"><img src="build_pics/top_chassis_plate_assembly_4.jpg" alt="" /></p>
+
+    <p class="sq_img_300"><img src="build_pics/top_chassis_plate_assembly_5.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<h1 id="top-chassis-plate-with-bbb-assembly">Top Chassis Plate With BBB Assembly</h1>
+
+<p><strong>Number to build: 1</strong></p>
+
+<p><strong>Parts</strong>
+0. Top Chassis Plate Assembly
+0. BeagleBone Black
+0. 4 - M3 Screw</p>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Small Screw Driver</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>Attach BeagleBone Black to top plate with Ethernet port sticking out to the right.</li>
+</ol>
+
+<h1 id="quickbot-assembly">QuickBot Assembly</h1>
+
+<p><strong>Number to build: 1</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - Bottom Chassis With IR Sensors Assembly</li>
+  <li>1 -Top Chassis Plate With BBB Assembly</li>
+  <li>4 - M3 Screw</li>
+</ol>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Small Screw Driver</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>
+    <p>Attach top plate assembly to bottom plate assembly.</p>
+
+    <p class="sq_img_300"><img src="quickbot_mooc_v2.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    
+      var disqus_shortname = 'o-botics'; // required: replace example with your forum shortname
+    
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<p><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2014 O-Botics. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://o-botics.org/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://o-botics.org/assets/js/scripts.min.js"></script>
+
+
+
+
+</body>
+</html>
