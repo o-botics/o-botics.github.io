@@ -9,7 +9,7 @@
 
 <head>
 <style>
-.sq_img_300 {
+.img_width_300 {
   width: 300px;
   float: left;
 }
@@ -146,36 +146,42 @@
       </p>
         
         <ul id="markdown-toc">
-  <li><a href="#rocker-switch-wiring-assembly">Rocker Switch Wiring Assembly</a></li>
-  <li><a href="#dc-plug-wiring-assembly">DC Plug Wiring Assembly</a></li>
-  <li><a href="#power-supply-assembly">Power Supply Assembly</a></li>
-  <li><a href="#ir-sensor-assembly">IR Sensor Assembly</a></li>
-  <li><a href="#encoder-cable-assembly">Encoder Cable Assembly</a></li>
-  <li><a href="#ir-cable-assembly">IR Cable Assembly</a></li>
-  <li><a href="#logic-level-converter-assembly">Logic Level Converter Assembly</a></li>
-  <li><a href="#breadboard-assembly">Breadboard Assembly</a></li>
-  <li><a href="#motor-encoder-assembly">Motor-Encoder Assembly</a></li>
-  <li><a href="#bottom-chassis-with-motors-assembly">Bottom Chassis With Motors Assembly</a></li>
-  <li><a href="#bottom-chassis-with-wheels-assembly">Bottom Chassis With Wheels Assembly</a></li>
-  <li><a href="#bottom-chassis-with-voltage-regulators">Bottom Chassis With Voltage Regulators</a></li>
+  <li><a href="#rocker-switch-wiring-assembly">1. Rocker Switch Wiring Assembly</a></li>
+  <li><a href="#dc-plug-wiring-assembly">2. DC Plug Wiring Assembly</a></li>
+  <li><a href="#encoder-cable-assembly">3. Encoder Cable Assembly</a></li>
+  <li><a href="#ir-cable-assembly">4. IR Cable Assembly</a></li>
+  <li><a href="#ir-sensor-assembly">5. IR Sensor Assembly</a></li>
+  <li><a href="#logic-level-converter-assembly">6. Logic Level Converter Assembly</a></li>
+  <li><a href="#breadboard-assembly">7. Breadboard Assembly</a></li>
+  <li><a href="#motor-encoder-assembly">8. Motor-Encoder Assembly</a></li>
+  <li><a href="#bottom-chassis-with-motors-assembly">9. Bottom Chassis With Motors Assembly</a></li>
+  <li><a href="#bottom-chassis-with-wheels-assembly">10. Bottom Chassis With Wheels Assembly</a></li>
+  <li><a href="#bottom-chassis-with-voltage-regulators-assembly">11. Bottom Chassis With Voltage Regulators Assembly</a></li>
   <li><a href="#bottom-chassis-with-ir-sensors-assembly">Bottom Chassis With IR Sensors Assembly</a></li>
-  <li><a href="#top-chassis-plate-assembly">Top Chassis Plate Assembly</a></li>
+  <li><a href="#top-chassis-plate-assembly">13. Top Chassis Plate Assembly</a></li>
   <li><a href="#top-chassis-plate-with-bbb-assembly">Top Chassis Plate With BBB Assembly</a></li>
   <li><a href="#quickbot-assembly">QuickBot Assembly</a></li>
 </ul>
 
-<h1 id="rocker-switch-wiring-assembly">Rocker Switch Wiring Assembly</h1>
+<!--  -->
+
+<h1 id="rocker-switch-wiring-assembly">1. Rocker Switch Wiring Assembly</h1>
 
 <p><strong>Number to build: 1</strong></p>
 
 <p><strong>Parts</strong></p>
 
 <ol>
-  <li>1 - 2-pin Female Smaller JST Uh-oh Connector</li>
+  <li>2 - 2-pin Female Red JST Battery Connector</li>
+  <li>1 - 2-pin Female 2mm-pitch JST Uh-oh Connector</li>
   <li>1 - 3-pin Rocker Switch</li>
-  <li>2 - 2-pin Male Red JST Battery Connector</li>
-  <li>2 - 1/2” Heat Shrink Tubing</li>
+  <li>3 - 1/2” Heat Shrink Tubing</li>
 </ol>
+
+<p class="img_width_300"><img src="build_pics/rocker_swtich_wiring_assembly_1.jpg" alt="" />
+<strong>Rocker Switch Wiring Parts</strong></p>
+
+<p><br style="clear:both;" /></p>
 
 <p><strong>Tools</strong></p>
 
@@ -188,49 +194,46 @@
 <p><strong>Instructions</strong></p>
 
 <ol>
-  <li>(2) Cut red JST battery connector wires to 3.5” and strip 1/4” from ends.</li>
-  <li>(2) Untwist 1 JST wire 1” and strip 1/4” from end.</li>
-  <li>
-    <p>(2) Cut 1/2” heat shrink tubing</p>
-
-    <p class="sq_img_300"><img src="build_pics/power_wiring_assembly_1.jpg" alt="" /></p>
-
-    <p><br style="clear:both;" /></p>
-  </li>
-  <li>(2) Twist all 3 black wires together, insert through heat shrink tube.</li>
-  <li>
-    <p>(2) Twist all 3 red wires together, insert through heat shrink tube.</p>
-
-    <p class="sq_img_300"><img src="build_pics/power_wiring_assembly_2.jpg" alt="" /></p>
-
-    <p><br style="clear:both;" /></p>
-  </li>
-  <li>Solder black wires to middle pin of switch.</li>
-  <li>Solder red wires to pin on “O” side of switch.
+  <li>Cut battery connector wires to 3.5” and strip 1/4” from ends.</li>
+  <li>Twist stripped ends of black wires of battery connector together and twist stripped ends of red wires of battery connector together.</li>
+  <li>Insert black wires through one heat shrink tube and insert red wries through another one of the heat shrink tubes.</li>
+  <li>Untwist Uh-oh wire 1” and strip 1/4” from ends.</li>
+  <li>Insert red wire of Uh-oh connector through the last heat shrink tube.</li>
+  <li>Solder red wires of battery connectors to the pin on the “O” side of switch.
     <ul>
-      <li><strong>Pro tip:</strong> Solder wires together first, then solder to lead of the switch.</li>
+      <li><strong>Pro tip:</strong> Solder wires together first, then solder to the pin of the switch.</li>
     </ul>
   </li>
+  <li>Solder red wire of Uh-oh connector to the middle pin of the switch.</li>
+  <li>Solder all black wires together.</li>
   <li>
     <p>Heat shrink the tubing around solder points.</p>
 
-    <p class="sq_img_300"><img src="build_pics/power_wiring_assembly_3.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/rocker_swtich_wiring_assembly_2.jpg" alt="" />
+ <strong>Rocker Switch Wiring Assembly</strong></p>
 
     <p><br style="clear:both;" /></p>
   </li>
 </ol>
 
-<h1 id="dc-plug-wiring-assembly">DC Plug Wiring Assembly</h1>
+<!--  -->
+
+<h1 id="dc-plug-wiring-assembly">2. DC Plug Wiring Assembly</h1>
 
 <p><strong>Number to build: 1</strong></p>
 
 <p><strong>Parts</strong></p>
 
 <ol>
-  <li>2 - 2-pin Female Larger JST Volt Reg Connector</li>
+  <li>2 - 2-pin Female 0.1in-pitch JST Volt Reg Connector</li>
+  <li>1 - 2-pin Female 2mm-pitch JST Uh-oh Connector</li>
   <li>1 - DC Barrel Plug</li>
-  <li>1 - 2-pin Female Smaller JST Uh-oh Connector</li>
 </ol>
+
+<p class="img_width_300"><img src="build_pics/dc_plug_wiring_assembly_1.jpg" alt="" />
+<strong>DC Plug Wiring Parts</strong></p>
+
+<p><br style="clear:both;" /></p>
 
 <p><strong>Tools</strong></p>
 
@@ -243,91 +246,58 @@
 <p><strong>Instructions</strong></p>
 
 <ol>
-  <li>Strip all other JST wires 1/4” from end.</li>
+  <li>Strip all wires 1/4” from end.</li>
   <li>Twist all 3 black wires together and screw into negative terminal of DC plug.</li>
   <li>
     <p>Twist all 3 red wires together and screw into positive terminal of DC plug.</p>
 
-    <p class="sq_img_300"><img src="build_pics/power_wiring_assembly_4.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/dc_plug_wiring_assembly_2.jpg" alt="" />
+ <strong>DC Plug Wiring Assembly</strong></p>
 
     <p><br style="clear:both;" /></p>
   </li>
 </ol>
 
-<h1 id="power-supply-assembly">Power Supply Assembly</h1>
+<!--  -->
 
-<p><strong>Number to build: 1</strong></p>
+<!-- # Power Supply Assembly
 
-<p><strong>Parts</strong></p>
+**Number to build: 1**
 
-<ol>
-  <li>1 - Rocker Switch Wiring Assembly</li>
-  <li>1 - DC Plug Wiring Assembly</li>
-  <li>1 - Uh-oh battery indicator Board Kit</li>
-</ol>
+**Parts**
 
-<p><strong>Tools</strong></p>
+0. 1 - Rocker Switch Wiring Assembly
+0. 1 - DC Plug Wiring Assembly
+0. 1 - Uh-oh battery indicator Board Kit
 
-<ol>
-  <li>Soldering Iron</li>
-  <li>Solder</li>
-  <li>Small Screw Driver</li>
-</ol>
+**Tools**
 
-<p><strong>Instructions</strong></p>
+0. Soldering Iron
+0. Solder
+0. Small Screw Driver
 
-<ol>
-  <li>Solder on all components to Uh-oh battery indicator board.</li>
-  <li>Adjust Uh-oh battery indicator board to 11V and label.</li>
-  <li>Adjust one voltage regulator to 5V and label.</li>
-  <li>Adjust one voltage regulator to 9V and label.</li>
-  <li>Plug rocker switch wiring assembly into “Batt” on Uh-oh battery indicator board.</li>
-  <li>Plug DC plug wiring assembly into “Sys” on Uh-oh battery indicator board.</li>
-  <li>
-    <p>Plug large JST plugs into “IN” on voltage regulators.</p>
+**Instructions**
 
-    <p class="sq_img_300"><img src="build_pics/power_wiring_assembly_5.jpg" alt="" /></p>
+0. Solder on all components to Uh-oh battery indicator board.
+0. Adjust Uh-oh battery indicator board to 11V and label.
+0. Adjust one voltage regulator to 5V and label.
+0. Adjust one voltage regulator to 9V and label.
+0. Plug rocker switch wiring assembly into "Batt" on Uh-oh battery indicator board.
+0. Plug DC plug wiring assembly into "Sys" on Uh-oh battery indicator board.
+0. Plug large JST plugs into "IN" on voltage regulators.
 
-    <p><br style="clear:both;" /></p>
-  </li>
-</ol>
+    {:.img_width_300}
+    ![](build_pics/power_wiring_assembly_5.jpg)
 
-<h1 id="ir-sensor-assembly">IR Sensor Assembly</h1>
+    <br style="clear:both;" /> -->
 
-<p><strong>Number to build: 5</strong></p>
+<!--  -->
 
-<p><strong>Parts</strong></p>
-
-<ol>
-  <li>1 - IR Sensor</li>
-  <li>2 - 1/4” 4-40 Screws</li>
-  <li>2 - 4-40 Angle Brackets</li>
-</ol>
-
-<p><strong>Tools</strong></p>
-
-<ol>
-  <li>Small Screw Driver</li>
-</ol>
-
-<p><strong>Instructions</strong></p>
-
-<ol>
-  <li>
-    <p>(2) Screw the screw through IR sensor hole into threaded angle bracket hole with the angle bracket on the backside of the IR sensor.</p>
-
-    <p class="sq_img_300"><img src="build_pics/IR_sensor_assembly_1.jpg" alt="" /></p>
-
-    <p class="sq_img_300"><img src="build_pics/IR_sensor_assembly_2.jpg" alt="" />
- <strong>IR Sensor Assembly</strong></p>
-
-    <p><br style="clear:both;" /></p>
-  </li>
-</ol>
-
-<h1 id="encoder-cable-assembly">Encoder Cable Assembly</h1>
+<h1 id="encoder-cable-assembly">3. Encoder Cable Assembly</h1>
 
 <p><strong>Number to build: 2</strong></p>
+
+<p><strong>(1 with purple/gray ribbon and 1 with red/orange ribbon)</strong></p>
 
 <p><strong>Parts</strong></p>
 
@@ -339,6 +309,11 @@
   <li>1 - 1x1-pin 0.1” Crimp Connector Housing</li>
   <li>5 - 0.1” Male Crimp Pins</li>
 </ol>
+
+<p class="img_width_300"><img src="build_pics/encoder_cable_assembly_1.jpg" alt="" />
+<strong>Encoder Cable Parts</strong></p>
+
+<p><br style="clear:both;" /></p>
 
 <p><strong>Tools</strong></p>
 
@@ -353,15 +328,15 @@
 
 <ol>
   <li>Separate 3/4” of the ribbon cable in to individual wires.</li>
-  <li>Strip 1/8” of insulation from each write and twist ends they are no frayed.</li>
+  <li>Strip 1/8” of insulation from each wire and twist ends so they are not frayed.</li>
   <li>Crimp female Molex crimp pin to each wire.
     <ul>
       <li><strong>Note:</strong> Make sure to crimp pin in correct orientation.**</li>
     </ul>
 
-    <p class="sq_img_300"><img src="build_pics/encoder_cable_assembly_1.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/encoder_cable_assembly_2.jpg" alt="" /></p>
 
-    <p class="sq_img_300"><img src="build_pics/encoder_cable_assembly_2.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/encoder_cable_assembly_3.jpg" alt="" /></p>
 
     <p><br style="clear:both;" /></p>
   </li>
@@ -373,24 +348,32 @@
   <li>
     <p>Insert purple or red into 1x1 0.1” crimp connector housing.</p>
 
-    <p class="sq_img_300"><img src="build_pics/encoder_cable_assembly_3.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/encoder_cable_assembly_4.jpg" alt="" />
+ <strong>Encoder Cable Assembly</strong></p>
 
     <p><br style="clear:both;" /></p>
   </li>
 </ol>
 
-<h1 id="ir-cable-assembly">IR Cable Assembly</h1>
+<!--  -->
+
+<h1 id="ir-cable-assembly">4. IR Cable Assembly</h1>
 
 <p><strong>Number to build: 5</strong></p>
 
 <p><strong>Parts</strong></p>
 
 <ol>
-  <li>1 - 3-pin Female JST IR Sensor Connector</li>
+  <li>1 - 3-pin Female 2mm-pitch JST IR Sensor Connector</li>
   <li>1 - 1x2-pin 0.1” Crimp Connector Housing</li>
   <li>1 - 1x1-pin 0.1” Crimp Connector Housing</li>
   <li>3 - 0.1” Male Crimp Pins</li>
 </ol>
+
+<p class="img_width_300"><img src="build_pics/IR_cable_assembly_1.jpg" alt="" />
+<strong>IR Cable Parts</strong></p>
+
+<p><br style="clear:both;" /></p>
 
 <p><strong>Tools</strong></p>
 
@@ -406,17 +389,58 @@
 <ol>
   <li>Cut connector wires to 7” and strip off 1/8” of insulation from the ends.</li>
   <li>Crimp on crimp pins to each wire end.</li>
-  <li>Insert red and black wire into 1x2-pin connector housing.</li>
+  <li>Insert red and black wires into 1x2-pin connector housing.</li>
   <li>
     <p>Insert white wire into 1x1-pin connector housing.</p>
 
-    <p class="sq_img_300"><img src="build_pics/IR_cable_assembly_1.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/IR_cable_assembly_2.jpg" alt="" />
+ <strong>IR Cable Assembly</strong></p>
 
     <p><br style="clear:both;" /></p>
   </li>
 </ol>
 
-<h1 id="logic-level-converter-assembly">Logic Level Converter Assembly</h1>
+<!--  -->
+
+<h1 id="ir-sensor-assembly">5. IR Sensor Assembly</h1>
+
+<p><strong>Number to build: 5</strong></p>
+
+<p><strong>Parts</strong></p>
+
+<ol>
+  <li>1 - IR Sensor</li>
+  <li>2 - 1/4” 4-40 Screws</li>
+  <li>2 - 4-40 Angle Brackets</li>
+</ol>
+
+<p class="img_width_300"><img src="build_pics/IR_sensor_assembly_1.jpg" alt="" />
+<strong>IR Sensor Parts</strong></p>
+
+<p><br style="clear:both;" /></p>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Small Screw Driver</li>
+</ol>
+
+<p><strong>Instructions</strong></p>
+
+<ol>
+  <li>
+    <p>Insert the screws through IR sensor holes and into the threaded hole of the angle bracket with the angle bracket on the backside of the IR sensor.</p>
+
+    <p class="img_width_300"><img src="build_pics/IR_sensor_assembly_2.jpg" alt="" />
+ <strong>IR Sensor Assembly</strong></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+</ol>
+
+<!--  -->
+
+<h1 id="logic-level-converter-assembly">6. Logic Level Converter Assembly</h1>
 
 <p><strong>Number to build: 1</strong></p>
 
@@ -426,6 +450,11 @@
   <li>1 - Logic Level Converter Board</li>
   <li>2 - 6-pin Male Breakaway Header Pins</li>
 </ol>
+
+<p class="img_width_300"><img src="build_pics/logic_level_converter_assembly_1.jpg" alt="" />
+<strong>Logic Level Converter Parts</strong></p>
+
+<p><br style="clear:both;" /></p>
 
 <p><strong>Tools</strong></p>
 
@@ -437,15 +466,22 @@
 <p><strong>Instructions</strong></p>
 
 <ol>
-  <li>Solder header pins to board.
+  <li>Solder header pins to the board.
     <ul>
       <li><strong>Note:</strong> The black portion of the header pins sits flush against the bottom of the board.</li>
       <li><strong>Pro Tip:</strong> Place header pins into a breadboard for easy soldering.</li>
     </ul>
+
+    <p class="img_width_300"><img src="build_pics/logic_level_converter_assembly_2.jpg" alt="" />
+ <strong>Logic Level Converter Assembly</strong></p>
+
+    <p><br style="clear:both;" /></p>
   </li>
 </ol>
 
-<h1 id="breadboard-assembly">Breadboard Assembly</h1>
+<!--  -->
+
+<h1 id="breadboard-assembly">7. Breadboard Assembly</h1>
 
 <p><strong>Parts</strong></p>
 
@@ -453,11 +489,16 @@
   <li>1 - Logic Level Converter Assembly</li>
   <li>1 - Breadboard</li>
   <li>1 - H-Bridge</li>
-  <li>6 - 4/10” Breadboard Jumper Wires (orange)</li>
-  <li>4 - 5/10” Breadboard Jumper Wires (yellow)</li>
+  <li>7 - 4/10” Breadboard Jumper Wires (orange)</li>
+  <li>5 - 5/10” Breadboard Jumper Wires (yellow)</li>
   <li>5 - 20k Ohm Resistors (red-black-orange-gold)</li>
   <li>5 - 10k Ohm Resistors (brown-black-orange-gold)</li>
 </ol>
+
+<p class="img_width_300"><img src="build_pics/breadboard_assembly_1.jpg" alt="" />
+<strong>Breadboard Parts</strong></p>
+
+<p><br style="clear:both;" /></p>
 
 <p><strong>Instructions</strong></p>
 
@@ -465,13 +506,16 @@
   <li>
     <p>Instal all components onto breadboard as shown in the image.</p>
 
-    <p class="sq_img_300"><img src="build_pics/breadboard_assembly_1.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/breadboard_assembly_2.jpg" alt="" />
+ <strong>Breadboard Assembly</strong></p>
 
     <p><br style="clear:both;" /></p>
   </li>
 </ol>
 
-<h1 id="motor-encoder-assembly">Motor-Encoder Assembly</h1>
+<!--  -->
+
+<h1 id="motor-encoder-assembly">8. Motor-Encoder Assembly</h1>
 
 <p><strong>Number to build: 2</strong></p>
 
@@ -484,6 +528,18 @@
   <li>1 - Motor</li>
 </ol>
 
+<p class="img_width_300"><img src="build_pics/motor-encoder_assembly_1.jpg" alt="" />
+<strong>Breadboard Parts</strong></p>
+
+<p><br style="clear:both;" /></p>
+
+<p><strong>Tools</strong></p>
+
+<ol>
+  <li>Drill</li>
+  <li>9/64 Drill Bit</li>
+</ol>
+
 <p><strong>Instructions</strong></p>
 
 <ol>
@@ -492,19 +548,30 @@
       <li><strong>Note:</strong> Make sure to place directly in the center of the disc!</li>
     </ul>
   </li>
+  <li>
+    <p>Enlarge wheel encoder mounting holes using approximately a 9/64 drill bit.</p>
+
+    <p class="img_width_300"><img src="build_pics/motor-encoder_assembly_2.jpg" alt="" />
+ <strong>Encoder Holes to Enlarge</strong></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
   <li>Fit wheel encoder onto motor using round notch as an alignment guide.</li>
   <li>
-    <p>Slide disc with sticker on to motor axle with the sticker facing the encoder.</p>
+    <p>Slide disc with sticker on to motor axle with the sticker facing the encoder. Keep disc flush with the end of the motor axle.</p>
 
-    <p class="sq_img_300"><img src="build_pics/motor-encoder_assembly_1.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/motor-encoder_assembly_3.jpg" alt="" />
+ <strong>Motor-Encoder Assembly</strong></p>
 
-    <p class="sq_img_300"><img src="build_pics/motor-encoder_assembly_2.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/motor-encoder_assembly_4.jpg" alt="" /></p>
 
     <p><br style="clear:both;" /></p>
   </li>
 </ol>
 
-<h1 id="bottom-chassis-with-motors-assembly">Bottom Chassis With Motors Assembly</h1>
+<!--  -->
+
+<h1 id="bottom-chassis-with-motors-assembly">9. Bottom Chassis With Motors Assembly</h1>
 
 <p><strong>Number to build: 1</strong></p>
 
@@ -518,9 +585,16 @@
   <li>4 - M3 Nut</li>
 </ol>
 
+<p class="img_width_300"><img src="build_pics/bottom_chassis_with_motors_1.jpg" alt="" />
+<strong>Bottom Chassis With Motors Parts</strong></p>
+
+<p><br style="clear:both;" /></p>
+
 <p><strong>Tools</strong></p>
 
 <ol>
+  <li>Drill</li>
+  <li>Dremel</li>
   <li>Small Screw Driver</li>
 </ol>
 
@@ -528,22 +602,45 @@
 
 <ol>
   <li>
-    <p>Place modified motor holders through slots in the bottom chassis plate, orientated such that modified edge of motor holders are on the front side of chassis (rounded edge).</p>
+    <p>Drill four holes towards the front of the bottom chassis plate as shown in the picture.
+These holes are for mounting the voltage regulators, so use the voltage regulators as a guild for the placement of the holes.</p>
 
-    <p class="sq_img_300"><img src="build_pics/bottom_chassis_with_motors_1.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/bottom_chassis_with_motors_2.jpg" alt="" />
+ <strong>Voltage Regulator Holes on the Topside Bottom Chassis</strong></p>
 
     <p><br style="clear:both;" /></p>
   </li>
   <li>
-    <p>Install motor-encoder assembly with black wires of motors away from chassis.</p>
+    <p>Modify the motor holders as shown in the picture. This allows for the encoder to fit with the motor holders, so use the motor-encoder assembly as a guild.</p>
 
-    <p class="sq_img_300"><img src="build_pics/bottom_chassis_with_motors_2.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/bottom_chassis_with_motors_3.jpg" alt="" />
+ <strong>Modified Motor Holders</strong></p>
+
+    <p><br style="clear:both;" /></p>
+
+    <p class="img_width_300"><img src="build_pics/bottom_chassis_with_motors_4.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+  <li>
+    <p>Place modified motor holders through slots in the bottom chassis plate, orientated such that modified edge of motor holders are on the front side of chassis (rounded edge).
+The mounts should stick out towards the bottom of the bottom chassis.</p>
+
+    <p class="img_width_300"><img src="build_pics/bottom_chassis_with_motors_5.jpg" alt="" /></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+  <li>
+    <p>Install motor-encoder assembly with the other unmodified motor holder, two M3*30 screws, and two M3 nuts per motor with black wires of motors away from chassis.</p>
+
+    <p class="img_width_300"><img src="build_pics/bottom_chassis_with_motors_6.jpg" alt="" />
+ <strong>Bottom Chassis With Motors Assembly</strong></p>
 
     <p><br style="clear:both;" /></p>
   </li>
 </ol>
 
-<h1 id="bottom-chassis-with-wheels-assembly">Bottom Chassis With Wheels Assembly</h1>
+<h1 id="bottom-chassis-with-wheels-assembly">10. Bottom Chassis With Wheels Assembly</h1>
 
 <p><strong>Parts</strong></p>
 
@@ -554,6 +651,11 @@
   <li>4 - M3*6 Screw</li>
   <li>2 - L25 Spacer</li>
 </ol>
+
+<p class="img_width_300"><img src="build_pics/bottom_chassis_with_wheels_1.jpg" alt="" />
+<strong>Bottom Chassis With Wheels Parts</strong></p>
+
+<p><br style="clear:both;" /></p>
 
 <p><strong>Tools</strong></p>
 
@@ -569,15 +671,15 @@
   <li>
     <p>Screw omni with spacers onto the bottom back (flat edge) of chassis assembly.</p>
 
-    <p class="sq_img_300"><img src="build_pics/bottom_chassis_with_wheels_1.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/bottom_chassis_with_wheels_2.jpg" alt="" /></p>
 
     <p><br style="clear:both;" /></p>
   </li>
 </ol>
 
-<p>#</p>
+<!--  -->
 
-<h1 id="bottom-chassis-with-voltage-regulators">Bottom Chassis With Voltage Regulators</h1>
+<h1 id="bottom-chassis-with-voltage-regulators-assembly">11. Bottom Chassis With Voltage Regulators Assembly</h1>
 
 <p><strong>Number to build: 1</strong></p>
 
@@ -585,10 +687,16 @@
 
 <ol>
   <li>1 - Bottom Chassis With Motors Assembly</li>
+  <li>1 - Breadboard Assembly</li>
   <li>2 - Voltage Regulators</li>
   <li>4 - 1/2” 4-40 Screw</li>
   <li>8 - 4-40 Nut</li>
 </ol>
+
+<p class="img_width_300"><img src="build_pics/bottom_chassis_with_vol_reg_1.jpg" alt="" />
+<strong>Bottom Chassis With Voltage Regulators Parts</strong></p>
+
+<p><br style="clear:both;" /></p>
 
 <p><strong>Tools</strong></p>
 
@@ -600,13 +708,27 @@
 
 <ol>
   <li>
-    <p>Add voltage regulators to top front of chassis assembly using screws and nuts. With each screw use one nut as a spacer between the voltage regulator and the chassis and one nut to secure the screw from the bottom of the chassis.</p>
+    <p>Insert screws into voltage regulator holes and secure with nuts.</p>
 
-    <p class="sq_img_300"><img src="build_pics/bottom_chassis_with_vol_reg_1.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/bottom_chassis_with_vol_reg_2.jpg" alt="" />
+ <strong>Voltage regulators with Screws</strong></p>
+
+    <p><br style="clear:both;" /></p>
+  </li>
+  <li>Add voltage regulators to top and front of chassis assembly.
+With each screw use one nut as a spacer between the voltage regulator and the chassis and one nut to secure the screw from the underside of the chassis.</li>
+  <li>
+    <p>Stick on breadboard to top of the bottom chassis.
+Make sure to have it flush against the motor mounts and omni wheel screws.</p>
+
+    <p class="img_width_300"><img src="build_pics/bottom_chassis_with_vol_reg_3.jpg" alt="" />
+ <strong>Bottom Chassis With Voltage Regulators Assembly</strong></p>
 
     <p><br style="clear:both;" /></p>
   </li>
 </ol>
+
+<!--  -->
 
 <h1 id="bottom-chassis-with-ir-sensors-assembly">Bottom Chassis With IR Sensors Assembly</h1>
 
@@ -616,7 +738,6 @@
 
 <ol>
   <li>1 - Bottom Chassis With Voltage Regulators</li>
-  <li>1 - Breadboard Assembly</li>
   <li>2 - IR Sensor Assembly</li>
   <li>4 - 1/2” 4-40 Screw</li>
   <li>4 - 4-40 Nut</li>
@@ -634,17 +755,18 @@
 
 <ol>
   <li>Add IR sensors to front of bottom chassis.</li>
-  <li>Stick on breadboard to top of bottom chassis. Make sure to have it flush against the motor mounts.</li>
   <li>
     <p>Mount L25 spacers to four corners of bottom chassis.</p>
 
-    <p class="sq_img_300"><img src="build_pics/bottom_chassis_with_ir_sensors_1.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/bottom_chassis_with_ir_sensors_1.jpg" alt="" /></p>
 
     <p><br style="clear:both;" /></p>
   </li>
 </ol>
 
-<h1 id="top-chassis-plate-assembly">Top Chassis Plate Assembly</h1>
+<!--  -->
+
+<h1 id="top-chassis-plate-assembly">13. Top Chassis Plate Assembly</h1>
 
 <p><strong>Number to build: 1</strong></p>
 
@@ -673,9 +795,9 @@
   <li>
     <p>Add L10 spacers to top plate.</p>
 
-    <p class="sq_img_300"><img src="build_pics/top_chassis_plate_assembly_1.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/top_chassis_plate_assembly_1.jpg" alt="" /></p>
 
-    <p class="sq_img_300"><img src="build_pics/top_chassis_plate_assembly_2.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/top_chassis_plate_assembly_2.jpg" alt="" /></p>
 
     <p><br style="clear:both;" /></p>
   </li>
@@ -683,16 +805,16 @@
   <li>
     <p>Zip tie on switch and DC plug to front of plate.</p>
 
-    <p class="sq_img_300"><img src="build_pics/top_chassis_plate_assembly_3.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/top_chassis_plate_assembly_3.jpg" alt="" /></p>
 
     <p><br style="clear:both;" /></p>
   </li>
   <li>
     <p>Add three IR sensors assemblies to top of plate.</p>
 
-    <p class="sq_img_300"><img src="build_pics/top_chassis_plate_assembly_4.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/top_chassis_plate_assembly_4.jpg" alt="" /></p>
 
-    <p class="sq_img_300"><img src="build_pics/top_chassis_plate_assembly_5.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="build_pics/top_chassis_plate_assembly_5.jpg" alt="" /></p>
 
     <p><br style="clear:both;" /></p>
   </li>
@@ -743,7 +865,7 @@
   <li>
     <p>Attach top plate assembly to bottom plate assembly.</p>
 
-    <p class="sq_img_300"><img src="quickbot_mooc_v2.jpg" alt="" /></p>
+    <p class="img_width_300"><img src="quickbot_mooc_v2.jpg" alt="" /></p>
 
     <p><br style="clear:both;" /></p>
   </li>
