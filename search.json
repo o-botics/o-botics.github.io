@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Added QuickBot MOOC v2 Robot",
+		  "category"   : "news",
+		  "url"        : "http://o-botics.org/news/added-quickbot-mooc-v2-robot/",
+		  "date"       : "2014-04-25 00:00:00 -0400",
+		  "shortdate"  : "April 25, 2014"
+		} ,
+	
+		{
 		  "title"      : "Tutorial -- Adding Content to O&#39;Botics",
 		  "category"   : "news",
 		  "url"        : "http://o-botics.org/news/tutorial-adding-content-to-obotics/",
