@@ -5,25 +5,25 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Articles &#8211; O'Botics</title>
-<meta name="description" content="An archive of posts sorted by date.">
-
+<title>QuickBot field test &#8211; O'Botics</title>
+<meta name="description" content="Video of QuickBot field test">
+<meta name="keywords" content="">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Articles">
-<meta property="og:description" content="An archive of posts sorted by date.">
-<meta property="og:url" content="http://o-botics.org/articles/">
+<meta property="og:title" content="QuickBot field test">
+<meta property="og:description" content="Video of QuickBot field test">
+<meta property="og:url" content="http://o-botics.org/news/quickbot-field-test/">
 <meta property="og:site_name" content="O'Botics">
 
 
 
 
 
-<link rel="canonical" href="http://o-botics.org/articles/">
+<link rel="canonical" href="http://o-botics.org/news/quickbot-field-test/">
 <link href="http://o-botics.org/feed.xml" type="application/atom+xml" rel="alternate" title="O'Botics Feed">
 
 
@@ -58,7 +58,7 @@
 
 </head>
 
-<body id="page">
+<body id="post">
 
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
@@ -124,31 +124,73 @@
 
 
 <div id="main" role="main">
-  <article class="entry">
+  <article class="hentry">
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title">Articles</h1>
+        <span class="entry-tags"></span>
+        
+          <h1 class="entry-title">QuickBot field test</h1>
+        
       </header>
+      <footer class="entry-meta">
+        
+        <img src="http://o-botics.org/images/no_name.jpg" alt="Mike Kroutikov photo" class="author-photo">
+        
+        <span class="author vcard">By <span class="fn"><a href="http://o-botics.org/about/" title="About Mike Kroutikov">Mike Kroutikov</a></span></span>
+        <span class="entry-date date published"><time datetime="2014-05-05T00:00:00-04:00"><i class="icon-calendar-empty"></i> May 05, 2014</time></span>
+        <span class="entry-date date modified"><time datetime="2014-05-05"><i class="icon-pencil"></i> May 05, 2014</time></span>
+        
+        <span><a href="http://o-botics.org/news/quickbot-field-test/" rel="bookmark" title="QuickBot field test"><i class="icon-link"></i> Permalink</a></span>
+        
+      </footer>
       <div class="entry-content">
-        <ul class="post-list">
- 
-  <li><article><a href="http://o-botics.org/news/quickbot-field-test/">QuickBot field test <span class="entry-date"><time datetime="2014-05-05T00:00:00-04:00">May 05, 2014</time></span></a></article></li>
- 
-  <li><article><a href="http://o-botics.org/news/added-quickbot-mooc-v2-robot/">Added QuickBot MOOC v2 Robot <span class="entry-date"><time datetime="2014-04-25T00:00:00-04:00">April 25, 2014</time></span></a></article></li>
- 
-  <li><article><a href="http://o-botics.org/news/tutorial-adding-content-to-obotics/">Tutorial -- Adding Content to O'Botics <span class="entry-date"><time datetime="2014-04-02T00:00:00-04:00">April 02, 2014</time></span></a></article></li>
- 
-  <li><article><a href="http://o-botics.org/news/site-up-and-running/">O'Botics Up and Running <span class="entry-date"><time datetime="2014-03-07T00:00:00-05:00">March 07, 2014</time></span></a></article></li>
- 
-  <li><article><a href="http://o-botics.org/news/trouble-updating-site/">Trouble Updating The Site <span class="entry-date"><time datetime="2014-03-05T00:00:00-05:00">March 05, 2014</time></span></a></article></li>
- 
-  <li><article><a href="http://o-botics.org/news/hello-world/">Hello World <span class="entry-date"><time datetime="2014-02-27T00:00:00-05:00">February 27, 2014</time></span></a></article></li>
+        <p>Video of my QuickBot field test</p>
 
-</ul>
+<iframe width="560" height="315" src="//www.youtube.com/embed/5rOYVlgJui8?rel=0" frameborder="0" allowfullscreen=""></iframe>
 
+<p>This is a QuickBot MOOC v1 robot, but powered by a LiPo battery (instead of two 4xAA packs).</p>
+
+<p>Software that drives robot can be found in <a href="http://github.com/pgmmpk/quickbot_api">my github repository</a>
+(it is pure Python, no MatLab).</p>
+
+<p>Robot switches between following strategies:</p>
+
+<ol>
+  <li>“Go Straight” - drives robot forward until it “sees” an obstacle. Then supervisor passes control to</li>
+  <li>“Avoid Collision” - reverses if necessary to establish some clearance. When done, yields to</li>
+  <li>“Find New Direction” - rotates until it sees a “clear” direction, then yields to “Go Straight”</li>
+</ol>
+
+<!-- Do not edit below this line -->
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    
+      var disqus_shortname = 'o-botics'; // required: replace example with your forum shortname
+    
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<p><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+        
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://o-botics.org/news/added-quickbot-mooc-v2-robot/" class="btn" title="Added QuickBot MOOC v2 Robot">Previous article</a>
+      
+      
+    </nav><!-- /.pagination -->
   </article>
 </div><!-- /#main -->
 
@@ -174,7 +216,7 @@
 <script src="http://o-botics.org/assets/js/scripts.min.js"></script>
 
 
-          
+
 
 </body>
 </html>
