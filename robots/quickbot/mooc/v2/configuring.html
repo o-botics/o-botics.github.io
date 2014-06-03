@@ -1,0 +1,603 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<head>
+<style>
+.img_width_300 {
+  width: 300px;
+  float: left;
+}
+</style>
+<meta charset="utf-8">
+<title>QuickBot MOOC v2 -- Configuring &#8211; O'Botics</title>
+<meta name="description" content="A place where roboticists can collaborate on robot designs, code, electronics, and hardware.">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="QuickBot MOOC v2 -- Configuring">
+<meta property="og:description" content="A place where roboticists can collaborate on robot designs, code, electronics, and hardware.">
+<meta property="og:url" content="http://o-botics.org/robots/quickbot/mooc/v2/configuring.html">
+<meta property="og:site_name" content="O'Botics">
+
+
+
+
+
+<link rel="canonical" href="http://o-botics.org/robots/quickbot/mooc/v2/configuring.html">
+<link href="http://o-botics.org/feed.xml" type="application/atom+xml" rel="alternate" title="O'Botics Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://o-botics.org/assets/css/main.min.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://o-botics.org/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://o-botics.org/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://o-botics.org/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://o-botics.org/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://o-botics.org/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://o-botics.org/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://o-botics.org/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="page">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/">Home</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/about/">About</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/news/">News</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/robots/">Robots</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="http://o-botics.org/roboticists/">Roboticists</a>
+				
+			</li>
+	        
+			<li>
+				
+					<a href="https://github.com/o-botics" target="_newtab">
+					<i class="icon-github"></i>
+				Repos</a>
+				
+			</li>
+	        
+	        <li><a href="http://o-botics.org/feed.xml" title="Atom/RSS feed" target="_newtab"><i class="icon-rss"></i> Feed</a></li>
+	        
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+
+
+<header class="masthead">
+	<div class="wrap">
+        
+    		<a href="http://o-botics.org" class="site-logo" rel="home" title="O'Botics"><img src="http://o-botics.org/images/site-logo.png" width="200" height="200" alt="O'Botics logo" class="animated fadeInUp"></a>
+        
+        <h1 class="site-title animated fadeIn"><a href="http://o-botics.org">O'Botics</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">A place where roboticists can collaborate on robot designs, code, electronics, and hardware.</h2>
+	</div>
+</header><!-- /.masthead -->
+
+
+<div id="main" role="main">
+  <article class="entry">
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <h1 class="entry-title">QuickBot MOOC v2 -- Configuring</h1>
+      </header>
+      <div class="entry-content">
+      <p style="text-align:left;">
+        <a href="building.html">&#8592;Building</a>
+        <span style="float:right;"><a href="running.html">Running&#8594;</a></span>
+      </p>
+        
+        <ul id="markdown-toc">
+  <li><a href="#ssh-into-beaglebone-black-bbb">1. SSH Into BeagleBone Black (BBB)</a></li>
+  <li><a href="#set-the-time-on-the-bbb-manually">2. Set the Time on the BBB Manually</a></li>
+  <li><a href="#configure-the-wifi">3. Configure the Wifi</a></li>
+  <li><a href="#configure-time-to-set-via-the-internet">4. Configure Time to Set Via the Internet</a></li>
+  <li><a href="#install-necessary-libraries">5. Install Necessary Libraries</a></li>
+  <li><a href="#configure-git">6. Configure Git</a>    <ul>
+      <li><a href="#a-optional-configurations">6a. Optional Configurations</a></li>
+    </ul>
+  </li>
+  <li><a href="#get-the-git-repository-and-set-it-up">7. Get the Git Repository and Set It Up</a></li>
+  <li><a href="#set-the-serial-setup-script-to-run-on-startup">8. Set the Serial Setup Script to Run on Startup</a></li>
+  <li><a href="#a-optional">A. Optional</a>    <ul>
+      <li><a href="#setup-ability-to-ssh-into-bbb-with-ip-address-and-no-password">Setup ability to SSH into BBB with IP address and no password</a></li>
+    </ul>
+  </li>
+  <li><a href="#b-troubleshooting">B. Troubleshooting</a>    <ul>
+      <li><a href="#flash-latest-angstrom-os-onto-the-bbb">Flash Latest Angstrom OS onto the BBB</a></li>
+    </ul>
+  </li>
+</ul>
+
+<!--  -->
+
+<h1 id="ssh-into-beaglebone-black-bbb">1. SSH Into BeagleBone Black (BBB)</h1>
+
+<p>Adafruit has a great tutorial on how to SSH into the BBB over USB at</p>
+
+<p><a href="https://learn.adafruit.com/ssh-to-beaglebone-black-over-usb/overview">https://learn.adafruit.com/ssh-to-beaglebone-black-over-usb/overview</a></p>
+
+<p>So, navigate to this page and follow the tutorial to SSH into your BBB via USB.</p>
+
+<ul>
+  <li>If you get an error that says, <code>WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!</code> when you try to SSH into the BBB, don’t worry.
+This just means you are using two or more BBB with your computer.
+To fix this error you need to delete the line with your BBB IP address (<code>192.168.7.2</code>) from the file SSH know hosts file (<code>~/.ssh/know_hosts</code>), which can be done with any text editor.
+After that modification, you will be able to SSH into the BBB.</li>
+</ul>
+
+<h1 id="set-the-time-on-the-bbb-manually">2. Set the Time on the BBB Manually</h1>
+
+<p>For your BBB to operate correctly it needs to have the correct time.
+You can check the time with the <code>date</code> command.</p>
+
+<p>First, you need to set the time zone that you are in.
+The command you will use is similar to this one</p>
+
+<pre><code>&gt;&gt; ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
+</code></pre>
+
+<p>Make sure to change the <code>America/New_York</code> to the major city in your time zone.
+You can see which city to use with</p>
+
+<pre><code>&gt;&gt; ls /usr/share/zoneinfo
+</code></pre>
+
+<p>Since, your BBB is not connected to the internet yet you will have to set the time manually.
+The command to set the time looks like this</p>
+
+<pre><code>&gt;&gt; date -s "1 JUN 2014 15:30:45"
+</code></pre>
+
+<p>So, use this command to set the time with your current local time.
+Then test to see that it worked with just <code>&gt;&gt; date</code>.</p>
+
+<h1 id="configure-the-wifi">3. Configure the Wifi</h1>
+
+<p>Plug in your Wifi adapter and restart your BBB with this command:</p>
+
+<pre><code>&gt;&gt; reboot
+</code></pre>
+
+<p>(You should see the green lights on the Wifi adapter turn on when your BBB starts back up.)</p>
+
+<p>Once your BBB reboots, SSH back into it.
+Check that your BBB recognizes the Wifi adapter with the following command:</p>
+
+<pre><code>&gt;&gt; ifconfig ra0
+</code></pre>
+
+<p>If you don’t get an error, then it is working.
+If you do get an error try rebooting the BBB again.</p>
+
+<p>To configure your Wifi settings (assuming you are using WPA encryption) do the following command,</p>
+
+<pre><code>&gt;&gt; wpa_passphrase "YOUR NETWORK NAME HERE" 'YOUR NETWORK PASSWORD HERE'
+</code></pre>
+
+<p>For example:</p>
+
+<p><img src="configure_pics/wpa_passphrase.jpg" alt="" /></p>
+
+<p>Now, edit the Wifi configuration file at <code>/var/lib/connman/wifi.config</code> with the following:</p>
+
+<pre><code>&gt;&gt; nano /var/lib/connman/wifi.config
+
+[service_home]
+Type = wifi
+Name = YOUR NETWORK NAME HERE
+Passphrase = YOUR ENCRYPTED PASSPHRASE HERE
+</code></pre>
+
+<p>(Use <code>ctrl-x</code>, <code>y</code>, <code>enter</code> to save and exit the nano text editor)</p>
+
+<p>For example:</p>
+
+<p><img src="configure_pics/wifi_config_file.jpg" alt="" /></p>
+
+<p>Reboot the BBB (<code>&gt;&gt; reboot</code>) and SSH back in.
+Then check to see if you have a wifi IP address with</p>
+
+<pre><code>&gt;&gt; ifconfig ra0 | grep "inet addr"
+</code></pre>
+
+<p>Also, check that you are connected to the internet with</p>
+
+<pre><code>&gt;&gt; ping -o www.google.com
+</code></pre>
+
+<p>If you get 0% packet loss then you are good.</p>
+
+<h1 id="configure-time-to-set-via-the-internet">4. Configure Time to Set Via the Internet</h1>
+
+<p>Let’s set the BBB to set its time automatically using the internet with the following commands:</p>
+
+<pre><code>&gt;&gt; ntpdate -b -s -u pool.ntp.org
+&gt;&gt; /usr/lib/connman/test/set-global-timeservers pool.ntp.org
+</code></pre>
+
+<h1 id="install-necessary-libraries">5. Install Necessary Libraries</h1>
+
+<p>There a few Python libraries that need to be installed.
+Run the following commands:</p>
+
+<pre><code>&gt;&gt; opkg update
+&gt;&gt; opkg install python-pip python-setuptools python-smbus
+&gt;&gt; pip install Adafruit_BBIO pyserial
+</code></pre>
+
+<p>If you get any errors check to see that your date is set correctly.</p>
+
+<h1 id="configure-git">6. Configure Git</h1>
+
+<p>All the code for the QuickBot lives on a Git repository, but before you can clone the repository you need to configure Git.
+To do this edit the <code>~/.gitconfig</code> file with the following:</p>
+
+<pre><code>&gt;&gt; nano ~/.gitconfig
+
+[user]
+    name = Rowland O'Flaherty
+    email = rowoflo@gmail.com
+[http]
+    sslVerify = false
+[push]
+    default = current
+</code></pre>
+
+<p>Optionally you can add some additional configuration to the end of the file that make Git a little nicer to work with.</p>
+
+<pre><code>[color]
+    ui = true
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    unstage = reset HEAD --
+    untrack = rm --cached --
+    discard = checkout --
+    last = log -1 HEAD
+    visual = !gitk
+</code></pre>
+
+<p>The color options give Git some colorful output and the alias are shortcut commands so you don’t have to type those tediously long commands.</p>
+
+<h3 id="a-optional-configurations">6a. Optional Configurations</h3>
+
+<p>If you would like your shell prompt to look a little nicer and want to Git to do some auto-completion then do the following:</p>
+
+<p>Download Git auto-completion script with your local machine and move to BBB.</p>
+
+<ol>
+  <li>Open new terminal window</li>
+  <li>Run this command:
+    <ul>
+      <li><code>&gt;&gt; wget "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" git-completion.bash</code></li>
+    </ul>
+  </li>
+  <li>Copy this file to the BBB home directory with this command:
+    <ul>
+      <li><code>&gt;&gt; scp git-completion.bash root@192.168.7.2:/home/root/</code></li>
+    </ul>
+  </li>
+  <li>Remove file from local machine
+    <ul>
+      <li><code>&gt;&gt; rm git-completion.bash</code></li>
+    </ul>
+  </li>
+  <li>Change back to BBB terminal window</li>
+  <li>Move script to <code>~/.gitscripts</code> folder with these commands:
+    <ul>
+      <li><code>&gt;&gt; mkdir ~/.gitscripts</code></li>
+      <li><code>&gt;&gt; mv ~/git-completion.bash ~/.gitscripts</code></li>
+    </ul>
+  </li>
+</ol>
+
+<p>Edit <code>~/.profile</code> to load <code>git-completion.bash</code> script and add some additional goodies with the following:</p>
+
+<pre><code>&gt;&gt; nano ~/.profile
+
+# Setting command prompt and other command colors
+PS1='\[\e[1;34m\][\u@\h \W]&gt;&gt;\[\e[0m\] '
+alias ls='ls -G'
+export CLICOLOR=1
+export LSCOLORS=Gxfxcxdxbxegedabagacad
+alias ll='ls -lah'
+alias grep='grep --color=auto'
+
+# Setting variables
+export SLOTS=/sys/devices/bone_capemgr.8/slots
+export PINS=/sys/kernel/debug/pinctrl/44e10800.pinmux/pins
+export GPIO=/sys/class/gpio
+
+# Source scripts
+source ~/.gitscripts/git-completion.bash
+</code></pre>
+
+<p>Apply the new configuration with:</p>
+
+<pre><code>&gt;&gt; source ~/.profile
+</code></pre>
+
+<h1 id="get-the-git-repository-and-set-it-up">7. Get the Git Repository and Set It Up</h1>
+
+<p>Get the code with:</p>
+
+<pre><code>&gt;&gt; cd ~
+&gt;&gt; git clone https://github.com/o-botics/quickbot_bbb.git
+</code></pre>
+
+<h1 id="set-the-serial-setup-script-to-run-on-startup">8. Set the Serial Setup Script to Run on Startup</h1>
+
+<p>There is a script that needs to run each time the BBB boots up to set up the serial devices.
+You can run this script manually with</p>
+
+<pre><code>&gt;&gt; ~/quickbot_bbb/serial/setup.sh
+</code></pre>
+
+<p>But it is nice if this happens automatically on boot up.
+Create a service file and add the following:</p>
+
+<pre><code>&gt;&gt; nano /lib/systemd/system/serialsetup.service
+
+[Unit]
+Description=Sets up serial devices for BBB.
+After=syslog.target network.target
+
+[Service]
+Type=simple
+ExecStart=/home/root/quickbot_bbb/serial/setup.sh
+
+[Install]
+WantedBy=multi-user.target
+</code></pre>
+
+<p>Make a symbolic link to the service file:</p>
+
+<pre><code>&gt;&gt; ln -s /lib/systemd/system/serialsetup.service /etc/systemd/system/serialsetup.service
+</code></pre>
+
+<p>Active the service:</p>
+
+<pre><code>&gt;&gt; systemctl daemon-reload
+&gt;&gt; systemctl start serialsetup.service
+&gt;&gt; systemctl enable serialsetup.service
+</code></pre>
+
+<p>Next time your BBB the serial devices will be setup automatically, but now you can just setup them up manually.</p>
+
+<p>Now your BBB is all setup to run the code.</p>
+
+<h1 id="a-optional">A. Optional</h1>
+
+<h3 id="setup-ability-to-ssh-into-bbb-with-ip-address-and-no-password">Setup ability to SSH into BBB with IP address and no password</h3>
+
+<p>It is annoying having to type <code>ssh root@192.168.7.2</code> then wait to enter for at the password prompt in order to log into the BBB.
+To simplify things you can setup an SSH key so you can just type something like <code>ssh bbb</code>.</p>
+
+<p>On your local machine create an SSH key with the following:</p>
+
+<pre><code>(If you do not already have a ~/.ssh folder)
+&gt;&gt; mkdir ~/.ssh
+&gt;&gt; chmod 700 ~/.ssh
+(If you already have a ~/.ssh folder)
+&gt;&gt; cd ~/.ssh
+
+(If you do not already have a public key)
+(Hit enter to keep all default options with no password)
+&gt;&gt; ssh-keygen -t rsa
+
+&gt;&gt; scp ~/.ssh/id_rsa.pub root@192.168.7.2:/home/root
+&gt;&gt; nano config
+
+Host bbb
+    HostName 192.168.7.2
+    User root
+    IdentityFile ~/.ssh/id_rsa
+</code></pre>
+
+<p>SSH into the BBB with the normal <code>ssh root@192.168.7.2</code></p>
+
+<pre><code>&gt;&gt; mkdir -p ~/.ssh
+&gt;&gt; cat ~/id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys
+&gt;&gt; rm id_rsa.pub
+&gt;&gt; chmod 600 ~/.ssh/authorized_keys
+&gt;&gt; chmod 700 ~/.ssh
+</code></pre>
+
+<p>Log out of BBB with <code>crtl-D</code> or <code>&gt;&gt; exit</code> and log back in with</p>
+
+<pre><code>&gt;&gt; ssh bbb
+</code></pre>
+
+<p>Easy!</p>
+
+<h1 id="b-troubleshooting">B. Troubleshooting</h1>
+
+<p>If things are working like I make them out to work above try the following.</p>
+
+<h3 id="flash-latest-angstrom-os-onto-the-bbb">Flash Latest Angstrom OS onto the BBB</h3>
+
+<p><strong>1. Download BeagleBone Black (eMMC flasher) from the BBB website:</strong></p>
+
+<p><a href="http://beagleboard.org/latest-images/">http://beagleboard.org/latest-images/</a></p>
+
+<p><strong>2. Flash image onto microSD card</strong></p>
+
+<p><em>(Mac Version to flash image onto microSD card)</em></p>
+
+<ul>
+  <li>
+    <p>Plug the microSD card into computer and open “Disk Utility.app” (/Applications/Utilities/Disk Utility.app)</p>
+  </li>
+  <li>Select the mircoSD card in left column and click the “Erase” tab.</li>
+  <li>Set the format to MS-DOS (FAT), name “BBB”, and click “Erase…” button.</li>
+</ul>
+
+<p><img src="configure_pics/mac_disk_utility.jpg" alt="" /></p>
+
+<ul>
+  <li>Extract “BBB­eMMC­flasher­2013.09.04.img” from archived file in “Downloads” folder.</li>
+  <li>
+    <p>Open Terminal.app (/Applications/Utilities/Terminal.app) and enter the following
+commands:</p>
+
+    <p><code>&gt;&gt; cd ~/Downloads</code></p>
+
+    <p><code>&gt;&gt; diskutil list</code></p>
+  </li>
+  <li>Look for the “BBB” disk number. (In the image the disk number is 2).</li>
+</ul>
+
+<p><img src="configure_pics/mac_diskutil.jpg" alt="" /></p>
+
+<ul>
+  <li>
+    <p>Enter the following commands into the terminal:</p>
+
+    <p><code>&gt;&gt; diskutil unmountDisk /dev/disk#</code></p>
+
+    <p>(Use the disk number you found from above instead of the # symbol)</p>
+
+    <p><code>&gt;&gt; sudo dd bs=2m if=BBB­eMMC­flasher­2013.09.04.img of=/dev/rdisk#</code></p>
+
+    <p>(Notice that there is an “r” front of disk. Also, again use the disk # number from above.)</p>
+  </li>
+  <li>Enter your password and wait 15­30 minutes. Note: the operation gives no feedback until it is done.</li>
+  <li>
+    <p>Eject disk from computer.</p>
+
+    <pre><code>  &gt;&gt; diskutil eject /dev/disk#
+</code></pre>
+  </li>
+</ul>
+
+<p><strong>3. Flash microSD card to BBB</strong></p>
+
+<ul>
+  <li>Power down and unplug BBB.</li>
+  <li>Insert microSD card into BBB.</li>
+  <li>Hold down the “User Boot” button (see image below) while powering up the BBB
+(USB or 5V adaptor).</li>
+  <li>Continue to hold button until all 4 LEDs begin to flash then release the button.</li>
+  <li>Wait ~1-­2 hours until all 4 LEDs are lit up at the same time.</li>
+  <li>Power down BBB.</li>
+  <li>Remove microSD card.</li>
+</ul>
+
+<p><img src="configure_pics/bbb_flash_button.jpg" alt="" /></p>
+
+<!-- Do not edit below this line -->
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    
+      var disqus_shortname = 'o-botics'; // required: replace example with your forum shortname
+    
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<p><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2014 O-Botics. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://o-botics.org/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://o-botics.org/assets/js/scripts.min.js"></script>
+
+
+
+
+</body>
+</html>

@@ -190,55 +190,55 @@
   <li>Set the following variables in your <code>config.yml</code> file:</li>
 </ol>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span>            <span class="l-Scalar-Plain">Site Title</span>
-<span class="l-Scalar-Plain">description</span><span class="p-Indicator">:</span>      <span class="l-Scalar-Plain">Site description for the metas.</span>
-<span class="l-Scalar-Plain">logo</span><span class="p-Indicator">:</span>             <span class="l-Scalar-Plain">site-logo.png</span>
-<span class="l-Scalar-Plain">disqus_shortname</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">shortname</span>
-<span class="l-Scalar-Plain">search</span><span class="p-Indicator">:</span>           <span class="l-Scalar-Plain">true</span>
-<span class="c1"># Your site&#39;s domain goes here. When working locally use localhost server leave blank</span>
-<span class="c1"># PS. If you set this wrong stylesheets and scripts won&#39;t load and most links will break.</span>
-<span class="c1"># PPS. If you leave it blank for local testing home links won&#39;t work, they&#39;ll be fine for live domains though.</span>
-<span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span>              <span class="l-Scalar-Plain">http://localhost:4000</span>
+<div class="highlight"><pre><code class="yaml">title:            Site Title
+description:      Site description for the metas.
+logo:             site-logo.png
+disqus_shortname: shortname
+search:           true
+# Your site&#39;s domain goes here. When working locally use localhost server leave blank
+# PS. If you set this wrong stylesheets and scripts won&#39;t load and most links will break.
+# PPS. If you leave it blank for local testing home links won&#39;t work, they&#39;ll be fine for live domains though.
+url:              http://localhost:4000
 
-<span class="c1"># Owner/author information</span>
-<span class="l-Scalar-Plain">owner</span><span class="p-Indicator">:</span>
-  <span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span>           <span class="l-Scalar-Plain">Your Name</span>
-  <span class="l-Scalar-Plain">avatar</span><span class="p-Indicator">:</span>         <span class="l-Scalar-Plain">your-photo.jpg</span>
-  <span class="l-Scalar-Plain">email</span><span class="p-Indicator">:</span>          <span class="l-Scalar-Plain">your@email.com</span>
-  <span class="c1"># Social networking links used in footer. Update and remove as you like.</span>
-  <span class="l-Scalar-Plain">twitter</span><span class="p-Indicator">:</span>
-  <span class="l-Scalar-Plain">facebook</span><span class="p-Indicator">:</span>
-  <span class="l-Scalar-Plain">github</span><span class="p-Indicator">:</span>
-  <span class="l-Scalar-Plain">linkedin</span><span class="p-Indicator">:</span>
-  <span class="l-Scalar-Plain">instagram</span><span class="p-Indicator">:</span>
-  <span class="l-Scalar-Plain">tumblr</span><span class="p-Indicator">:</span>
-  <span class="c1"># For Google Authorship https://plus.google.com/authorship</span>
-  <span class="l-Scalar-Plain">google_plus</span><span class="p-Indicator">:</span>    <span class="s">&quot;http://plus.google.com/123123123123132123&quot;</span>
+# Owner/author information
+owner:
+  name:           Your Name
+  avatar:         your-photo.jpg
+  email:          your@email.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  facebook:
+  github:
+  linkedin:
+  instagram:
+  tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    &quot;http://plus.google.com/123123123123132123&quot;
 
-<span class="c1"># Analytics and webmaster tools stuff goes here</span>
-<span class="l-Scalar-Plain">google_analytics</span><span class="p-Indicator">:</span>
-<span class="l-Scalar-Plain">google_verify</span><span class="p-Indicator">:</span>
-<span class="c1"># https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here</span>
-<span class="l-Scalar-Plain">bing_verify</span><span class="p-Indicator">:</span>
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
 
-<span class="c1"># Links to include in top navigation</span>
-<span class="c1"># For external links add external: true</span>
-<span class="l-Scalar-Plain">links</span><span class="p-Indicator">:</span>
-  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">About</span>
-    <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/about/</span>
-  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Articles</span>
-    <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/articles/</span>
-  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Google</span>
-    <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://google.com</span>
-    <span class="l-Scalar-Plain">external</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span>
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about/
+  - title: Articles
+    url: /articles/
+  - title: Google
+    url: http://google.com
+    external: true
 
-<span class="c1"># http://en.wikipedia.org/wiki/List_of_tz_database_time_zones</span>
-<span class="l-Scalar-Plain">timezone</span><span class="p-Indicator">:</span>    <span class="l-Scalar-Plain">America/New_York</span>
-<span class="l-Scalar-Plain">pygments</span><span class="p-Indicator">:</span>    <span class="l-Scalar-Plain">true</span>
-<span class="l-Scalar-Plain">markdown</span><span class="p-Indicator">:</span>    <span class="l-Scalar-Plain">kramdown</span>
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+pygments:    true
+markdown:    kramdown
 
-<span class="c1"># https://github.com/mojombo/jekyll/wiki/Permalinks</span>
-<span class="l-Scalar-Plain">permalink</span><span class="p-Indicator">:</span>   <span class="l-Scalar-Plain">/:categories/:title/</span></code></pre></div>
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/</code></pre></div>
 
 <hr />
 
@@ -246,30 +246,30 @@
 
 <div class="highlight"><pre><code class="bash">so-simple-theme/
 ├── _includes/
-<span class="p">|</span>    ├── browser-upgrade.html  <span class="c">#prompt to upgrade browser on &lt; IE8</span>
-<span class="p">|</span>    ├── footer.html  <span class="c">#site footer</span>
-<span class="p">|</span>    ├── head.html  <span class="c">#site head</span>
-<span class="p">|</span>    ├── navigation.html <span class="c">#site navigation and masthead</span>
-<span class="p">|</span>    └── scripts.html  <span class="c">#jQuery, plugins, GA, etc.</span>
+|    ├── browser-upgrade.html  #prompt to upgrade browser on &lt; IE8
+|    ├── footer.html  #site footer
+|    ├── head.html  #site head
+|    ├── navigation.html #site navigation and masthead
+|    └── scripts.html  #jQuery, plugins, GA, etc.
 ├── _layouts/
-<span class="p">|</span>    ├── page.html  <span class="c">#page layout</span>
-<span class="p">|</span>    └── post.html  <span class="c">#post layout</span>
+|    ├── page.html  #page layout
+|    └── post.html  #post layout
 ├── _posts/
 ├── assets/
-<span class="p">|</span>    ├── css/  <span class="c">#preprocessed less styles</span>
-<span class="p">|</span>    ├── fonts/  <span class="c">#icon webfonts</span>
-<span class="p">|</span>    ├── js/
-<span class="p">|</span>    <span class="p">|</span>   ├── _main.js  <span class="c">#main JavaScript file, plugin settings, etc</span>
-<span class="p">|</span>    <span class="p">|</span>   ├── plugins  <span class="c">#jQuery plugins</span>
-<span class="p">|</span>    <span class="p">|</span>   └── vendor/  <span class="c">#jQuery and Modernizr</span>
-<span class="p">|</span>    └── less/
-├── images  <span class="c">#images for posts and pages</span>
-├── _config.yml  <span class="c">#Jekyll site options</span>
-├── about.md  <span class="c">#about page</span>
-├── articles.html  <span class="c">#lists all posts from latest to oldest</span>
-├── index.html  <span class="c">#homepage. lists 10 latest posts</span>
-├── tags.html  <span class="c">#lists all posts sorted by tag</span>
-└── sitemap.xml  <span class="c">#autogenerated sitemap for search engines</span></code></pre></div>
+|    ├── css/  #preprocessed less styles
+|    ├── fonts/  #icon webfonts
+|    ├── js/
+|    |   ├── _main.js  #main JavaScript file, plugin settings, etc
+|    |   ├── plugins  #jQuery plugins
+|    |   └── vendor/  #jQuery and Modernizr
+|    └── less/
+├── images  #images for posts and pages
+├── _config.yml  #Jekyll site options
+├── about.md  #about page
+├── articles.html  #lists all posts from latest to oldest
+├── index.html  #homepage. lists 10 latest posts
+├── tags.html  #lists all posts sorted by tag
+└── sitemap.xml  #autogenerated sitemap for search engines</code></pre></div>
 
 <hr />
 
@@ -282,7 +282,7 @@
 
 <p>Create a <a href="http://disqus.com">Disqus</a> account and change <code>disqus_shortname</code> in <code>_config.yml</code> to the Disqus <em>shortname</em> you just setup. To enable commenting on a post, add the following to its front matter:</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">comments</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span></code></pre></div>
+<div class="highlight"><pre><code class="yaml">comments: true</code></pre></div>
 
 <h4 id="ownerauthor-information">Owner/Author Information</h4>
 
@@ -298,23 +298,23 @@
 
 <p>Edit page/post titles and URLs to include in the site’s navigation. For external links add <code>external: true</code>.</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="c1"># sample top navigation links</span>
-<span class="l-Scalar-Plain">links</span><span class="p-Indicator">:</span>
-  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">About Page</span>
-    <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/about/</span>
-  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Articles</span>
-    <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/articles/</span>
-  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Other Page</span>
-    <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/other-page/</span>
-  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">External Link</span>
-    <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://mademistakes.com</span>
-    <span class="l-Scalar-Plain">external</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span></code></pre></div>
+<div class="highlight"><pre><code class="yaml"># sample top navigation links
+links:
+  - title: About Page
+    url: /about/
+  - title: Articles
+    url: /articles/
+  - title: Other Page
+    url: /other-page/
+  - title: External Link
+    url: http://mademistakes.com
+    external: true</code></pre></div>
 
 <h4 id="simple-search">Simple Search</h4>
 
 <p>Adding the following to <code>_config.yml</code> enables search using Christian Fei’s <a href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple Jekyll jQuery plugin</a>. Clicking search will trigger a fullscreen overlay that searches post titles’ using an autogenerated JSON file.</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">search</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span></code></pre></div>
+<div class="highlight"><pre><code class="yaml">search: true</code></pre></div>
 
 <figure>
   <img src="http://o-botics.org/images/simple-search-screenshot.jpg" alt="search screenshot" />
@@ -339,16 +339,16 @@
 
 <p>The two layouts make the assumption that the feature images live in the <em>images</em> folder. To add a feature image to a post or page just include the filename in the front matter like so. </p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">image</span><span class="p-Indicator">:</span>
-  <span class="l-Scalar-Plain">feature</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">feature-image-filename.jpg</span>
-  <span class="l-Scalar-Plain">thumb</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">thumbnail-image.jpg</span> <span class="c1">#keep it square 200x200 px is good</span></code></pre></div>
+<div class="highlight"><pre><code class="yaml">image:
+  feature: feature-image-filename.jpg
+  thumb: thumbnail-image.jpg #keep it square 200x200 px is good</code></pre></div>
 
 <p>If you want to apply attribution to a feature image use the following YAML front matter on posts or pages. Image credits appear directly below the feature image with a link back to the original source.</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">image</span><span class="p-Indicator">:</span>
-  <span class="l-Scalar-Plain">feature</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">feature-image-filename.jpg</span>
-  <span class="l-Scalar-Plain">credit</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Michael Rose</span> <span class="c1">#name of the person or site you want to credit</span>
-  <span class="l-Scalar-Plain">creditlink</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://mademistakes.com</span> <span class="c1">#url to their site or licensing</span></code></pre></div>
+<div class="highlight"><pre><code class="yaml">image:
+  feature: feature-image-filename.jpg
+  credit: Michael Rose #name of the person or site you want to credit
+  creditlink: http://mademistakes.com #url to their site or licensing</code></pre></div>
 
 <h4 id="categories">Categories</h4>
 
@@ -374,13 +374,13 @@
 
 <p>Not sure if this only effects Kramdown or if it’s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the <code>&lt;iframe&gt;</code> tags and remove <code>allowfullscreen</code>. Example below:</p>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;iframe</span> <span class="na">width=</span><span class="s">&quot;560&quot;</span> <span class="na">height=</span><span class="s">&quot;315&quot;</span> <span class="na">src=</span><span class="s">&quot;http://www.youtube.com/embed/PWf4WUoMXwg&quot;</span> <span class="na">frameborder=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span></code></pre></div>
+<div class="highlight"><pre><code class="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/PWf4WUoMXwg&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;</code></pre></div>
 
 <h4 id="social-share-links">Social Share Links</h4>
 
 <p>To enable Facebook, Twitter, and Google+ share links on a post or page, add the following to its front matter:</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">share</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span></code></pre></div>
+<div class="highlight"><pre><code class="yaml">share: true</code></pre></div>
 
 <h4 id="twitter-cards">Twitter Cards</h4>
 
