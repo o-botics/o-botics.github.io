@@ -296,8 +296,8 @@ To do this edit the <code>~/.gitconfig</code> file with the following:</p>
 <pre><code>&gt;&gt; nano ~/.gitconfig
 
 [user]
-    name = Rowland O'Flaherty
-    email = rowoflo@gmail.com
+    name = YOUR FULL NAME HERE
+    email = YOUR EMAIL ADDRESS HERE
 [http]
     sslVerify = false
 [push]
@@ -337,6 +337,8 @@ To do this edit the <code>~/.gitconfig</code> file with the following:</p>
   <li>Run this command:
     <ul>
       <li><code>&gt;&gt; wget "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" git-completion.bash</code></li>
+      <li>If you don’t have <code>wget</code> on your computer you can install with Homebrew, MacPorts, or from source following these instructions “<a href="http://osxdaily.com/2012/05/22/install-wget-mac-os-x/">Install wget in Mac OS X Without Homebrew or MacPorts</a>”</li>
+      <li>If you get an error you with the <code>wget</code> command may need to use the <code>--no-check-certificate</code> option.</li>
     </ul>
   </li>
   <li>Copy this file to the BBB home directory with this command:
@@ -397,7 +399,8 @@ source ~/.gitscripts/git-completion.bash
 <p>There is a script that needs to run each time the BBB boots up to set up the serial devices.
 You can run this script manually with</p>
 
-<pre><code>&gt;&gt; ~/quickbot_bbb/serial/setup.sh
+<pre><code>&gt;&gt; cd ~/quickbot_bbb/serial
+&gt;&gt; ./setup.sh
 </code></pre>
 
 <p>But it is nice if this happens automatically on boot up.
